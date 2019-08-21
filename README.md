@@ -127,113 +127,113 @@ df.head()
   <tbody>
     <tr>
       <th>0</th>
-      <td>0.000261</td>
-      <td>0.056076</td>
-      <td>0.000127</td>
-      <td>0.056464</td>
-      <td>0.000410</td>
-      <td>0.064045</td>
-      <td>0.000052</td>
-      <td>0.000073</td>
-      <td>0.000666</td>
-      <td>1.576157e-09</td>
-      <td>0.006591</td>
-      <td>1.947787e-08</td>
-      <td>6.316700e-09</td>
-      <td>0.000226</td>
-      <td>3.496668e-09</td>
-      <td>0.080635</td>
-      <td>0.863755</td>
-      <td>0.425983</td>
-      <td>2.470450e-06</td>
+      <td>0.000053</td>
+      <td>0.588143</td>
+      <td>0.000015</td>
+      <td>0.588211</td>
+      <td>0.000645</td>
+      <td>0.217072</td>
+      <td>0.000008</td>
+      <td>0.000180</td>
+      <td>0.001934</td>
+      <td>1.142199e-09</td>
+      <td>0.001369</td>
+      <td>1.202924e-08</td>
+      <td>5.099300e-08</td>
+      <td>0.000718</td>
+      <td>1.659245e-09</td>
+      <td>0.044559</td>
+      <td>9.281378</td>
+      <td>0.170848</td>
+      <td>1.040912e-07</td>
     </tr>
     <tr>
       <th>1</th>
-      <td>0.000480</td>
-      <td>0.006484</td>
-      <td>0.000004</td>
-      <td>0.006968</td>
-      <td>0.000028</td>
-      <td>0.006420</td>
-      <td>0.000002</td>
-      <td>0.000008</td>
-      <td>0.000084</td>
-      <td>4.186396e-10</td>
-      <td>0.000408</td>
-      <td>1.001933e-09</td>
-      <td>4.608832e-10</td>
-      <td>0.000024</td>
-      <td>5.214179e-10</td>
-      <td>1.256094</td>
-      <td>0.061470</td>
-      <td>-0.200622</td>
-      <td>2.247062e-08</td>
+      <td>0.000162</td>
+      <td>1.053454</td>
+      <td>0.000078</td>
+      <td>1.053694</td>
+      <td>0.010851</td>
+      <td>0.074229</td>
+      <td>0.000753</td>
+      <td>0.001528</td>
+      <td>0.015533</td>
+      <td>1.561707e-09</td>
+      <td>0.004844</td>
+      <td>4.135861e-08</td>
+      <td>6.808792e-09</td>
+      <td>0.004120</td>
+      <td>1.342487e-08</td>
+      <td>0.077180</td>
+      <td>15.350463</td>
+      <td>2.357585</td>
+      <td>1.142805e-07</td>
     </tr>
     <tr>
       <th>2</th>
-      <td>0.000363</td>
-      <td>0.077958</td>
-      <td>0.000177</td>
-      <td>0.078498</td>
-      <td>0.000570</td>
-      <td>0.089037</td>
-      <td>0.000072</td>
-      <td>0.000101</td>
-      <td>0.000926</td>
-      <td>2.191205e-09</td>
-      <td>0.009163</td>
-      <td>2.707853e-08</td>
-      <td>8.781605e-09</td>
-      <td>0.000315</td>
-      <td>4.861140e-09</td>
-      <td>0.112100</td>
-      <td>1.200809</td>
-      <td>0.592210</td>
-      <td>3.434470e-06</td>
+      <td>0.000026</td>
+      <td>0.012671</td>
+      <td>0.000030</td>
+      <td>0.012726</td>
+      <td>0.000074</td>
+      <td>0.025228</td>
+      <td>0.000009</td>
+      <td>0.000060</td>
+      <td>0.000187</td>
+      <td>5.676048e-10</td>
+      <td>1.184924</td>
+      <td>3.716515e-09</td>
+      <td>5.734082e-08</td>
+      <td>0.000051</td>
+      <td>2.871032e-09</td>
+      <td>0.132819</td>
+      <td>14.255169</td>
+      <td>0.084286</td>
+      <td>5.122173e-08</td>
     </tr>
     <tr>
       <th>3</th>
       <td>0.000363</td>
-      <td>0.077958</td>
+      <td>0.077957</td>
       <td>0.000177</td>
-      <td>0.078498</td>
+      <td>0.078496</td>
       <td>0.000570</td>
-      <td>0.089037</td>
+      <td>0.089036</td>
       <td>0.000072</td>
       <td>0.000101</td>
       <td>0.000926</td>
-      <td>2.191205e-09</td>
+      <td>2.191182e-09</td>
       <td>0.009163</td>
-      <td>2.707853e-08</td>
-      <td>8.781605e-09</td>
+      <td>2.707840e-08</td>
+      <td>8.781046e-09</td>
       <td>0.000315</td>
-      <td>4.861140e-09</td>
+      <td>4.861033e-09</td>
       <td>0.112100</td>
-      <td>1.200809</td>
-      <td>0.592210</td>
-      <td>3.434470e-06</td>
+      <td>1.200793</td>
+      <td>0.592213</td>
+      <td>3.434466e-06</td>
     </tr>
     <tr>
       <th>4</th>
-      <td>0.000019</td>
-      <td>0.013554</td>
-      <td>0.000011</td>
-      <td>0.013585</td>
-      <td>0.000083</td>
-      <td>0.034815</td>
-      <td>0.000010</td>
-      <td>0.000017</td>
-      <td>0.000165</td>
-      <td>2.092410e-09</td>
-      <td>0.000976</td>
-      <td>6.284832e-09</td>
-      <td>1.153203e-09</td>
-      <td>0.000058</td>
-      <td>1.104786e-09</td>
-      <td>0.004953</td>
-      <td>0.190287</td>
-      <td>0.328567</td>
-      <td>3.038103e-07</td>
+      <td>0.000287</td>
+      <td>0.061599</td>
+      <td>0.000140</td>
+      <td>0.062025</td>
+      <td>0.000450</td>
+      <td>0.070353</td>
+      <td>0.000057</td>
+      <td>0.000080</td>
+      <td>0.000732</td>
+      <td>1.731384e-09</td>
+      <td>0.007240</td>
+      <td>2.139614e-08</td>
+      <td>6.938799e-09</td>
+      <td>0.000249</td>
+      <td>3.841037e-09</td>
+      <td>0.088576</td>
+      <td>0.948821</td>
+      <td>0.467936</td>
+      <td>2.713751e-06</td>
     </tr>
   </tbody>
 </table>
@@ -344,60 +344,88 @@ df.head()
   <tbody>
     <tr>
       <th rowspan="5" valign="top">electricity production</th>
-      <th>photovoltaic</th>
-      <th>3kWp slanted-roof installation</th>
-      <th>multi-Si</th>
-      <th>panel</th>
-      <th>mounted</th>
+      <th>natural gas</th>
+      <th>conventional power plant</th>
+      <th></th>
+      <th></th>
+      <th></th>
       <th>kilowatt hour</th>
-      <th>IN-KA</th>
-      <td>0.000261</td>
-      <td>0.056076</td>
-      <td>0.000127</td>
-      <td>0.056464</td>
-      <td>0.000410</td>
-      <td>0.064045</td>
-      <td>0.000052</td>
-      <td>0.000073</td>
-      <td>0.000666</td>
-      <td>1.576157e-09</td>
-      <td>0.006591</td>
-      <td>1.947787e-08</td>
-      <td>6.316700e-09</td>
-      <td>0.000226</td>
-      <td>3.496668e-09</td>
-      <td>0.080635</td>
-      <td>0.863755</td>
-      <td>0.425983</td>
-      <td>2.470450e-06</td>
+      <th>CN-JS</th>
+      <td>0.000053</td>
+      <td>0.588143</td>
+      <td>0.000015</td>
+      <td>0.588211</td>
+      <td>0.000645</td>
+      <td>0.217072</td>
+      <td>0.000008</td>
+      <td>0.000180</td>
+      <td>0.001934</td>
+      <td>1.142199e-09</td>
+      <td>0.001369</td>
+      <td>1.202924e-08</td>
+      <td>5.099300e-08</td>
+      <td>0.000718</td>
+      <td>1.659245e-09</td>
+      <td>0.044559</td>
+      <td>9.281378</td>
+      <td>0.170848</td>
+      <td>1.040912e-07</td>
     </tr>
     <tr>
-      <th>hydro</th>
-      <th>reservoir</th>
-      <th>alpine region</th>
+      <th>hard coal</th>
+      <th></th>
+      <th></th>
       <th></th>
       <th></th>
       <th>kilowatt hour</th>
-      <th>IN-RJ</th>
-      <td>0.000480</td>
-      <td>0.006484</td>
-      <td>0.000004</td>
-      <td>0.006968</td>
-      <td>0.000028</td>
-      <td>0.006420</td>
-      <td>0.000002</td>
-      <td>0.000008</td>
-      <td>0.000084</td>
-      <td>4.186396e-10</td>
-      <td>0.000408</td>
-      <td>1.001933e-09</td>
-      <td>4.608832e-10</td>
-      <td>0.000024</td>
-      <td>5.214179e-10</td>
-      <td>1.256094</td>
-      <td>0.061470</td>
-      <td>-0.200622</td>
-      <td>2.247062e-08</td>
+      <th>RoW</th>
+      <td>0.000162</td>
+      <td>1.053454</td>
+      <td>0.000078</td>
+      <td>1.053694</td>
+      <td>0.010851</td>
+      <td>0.074229</td>
+      <td>0.000753</td>
+      <td>0.001528</td>
+      <td>0.015533</td>
+      <td>1.561707e-09</td>
+      <td>0.004844</td>
+      <td>4.135861e-08</td>
+      <td>6.808792e-09</td>
+      <td>0.004120</td>
+      <td>1.342487e-08</td>
+      <td>0.077180</td>
+      <td>15.350463</td>
+      <td>2.357585</td>
+      <td>1.142805e-07</td>
+    </tr>
+    <tr>
+      <th>nuclear</th>
+      <th>boiling water reactor</th>
+      <th></th>
+      <th></th>
+      <th></th>
+      <th>kilowatt hour</th>
+      <th>US-NPCC</th>
+      <td>0.000026</td>
+      <td>0.012671</td>
+      <td>0.000030</td>
+      <td>0.012726</td>
+      <td>0.000074</td>
+      <td>0.025228</td>
+      <td>0.000009</td>
+      <td>0.000060</td>
+      <td>0.000187</td>
+      <td>5.676048e-10</td>
+      <td>1.184924</td>
+      <td>3.716515e-09</td>
+      <td>5.734082e-08</td>
+      <td>0.000051</td>
+      <td>2.871032e-09</td>
+      <td>0.132819</td>
+      <td>14.255169</td>
+      <td>0.084286</td>
+      <td>5.122173e-08</td>
     </tr>
     <tr>
       <th rowspan="2" valign="top">photovoltaic</th>
@@ -406,76 +434,48 @@ df.head()
       <th rowspan="2" valign="top">panel</th>
       <th rowspan="2" valign="top">mounted</th>
       <th rowspan="2" valign="top">kilowatt hour</th>
-      <th>CN-BJ</th>
+      <th>LV</th>
       <td>0.000363</td>
-      <td>0.077958</td>
+      <td>0.077957</td>
       <td>0.000177</td>
-      <td>0.078498</td>
+      <td>0.078496</td>
       <td>0.000570</td>
-      <td>0.089037</td>
+      <td>0.089036</td>
       <td>0.000072</td>
       <td>0.000101</td>
       <td>0.000926</td>
-      <td>2.191205e-09</td>
+      <td>2.191182e-09</td>
       <td>0.009163</td>
-      <td>2.707853e-08</td>
-      <td>8.781605e-09</td>
+      <td>2.707840e-08</td>
+      <td>8.781046e-09</td>
       <td>0.000315</td>
-      <td>4.861140e-09</td>
+      <td>4.861033e-09</td>
       <td>0.112100</td>
-      <td>1.200809</td>
-      <td>0.592210</td>
-      <td>3.434470e-06</td>
+      <td>1.200793</td>
+      <td>0.592213</td>
+      <td>3.434466e-06</td>
     </tr>
     <tr>
-      <th>CN-HB</th>
-      <td>0.000363</td>
-      <td>0.077958</td>
-      <td>0.000177</td>
-      <td>0.078498</td>
-      <td>0.000570</td>
-      <td>0.089037</td>
-      <td>0.000072</td>
-      <td>0.000101</td>
-      <td>0.000926</td>
-      <td>2.191205e-09</td>
-      <td>0.009163</td>
-      <td>2.707853e-08</td>
-      <td>8.781605e-09</td>
-      <td>0.000315</td>
-      <td>4.861140e-09</td>
-      <td>0.112100</td>
-      <td>1.200809</td>
-      <td>0.592210</td>
-      <td>3.434470e-06</td>
-    </tr>
-    <tr>
-      <th>wind</th>
-      <th>1-3MW turbine</th>
-      <th>onshore</th>
-      <th></th>
-      <th></th>
-      <th>kilowatt hour</th>
-      <th>PT</th>
-      <td>0.000019</td>
-      <td>0.013554</td>
-      <td>0.000011</td>
-      <td>0.013585</td>
-      <td>0.000083</td>
-      <td>0.034815</td>
-      <td>0.000010</td>
-      <td>0.000017</td>
-      <td>0.000165</td>
-      <td>2.092410e-09</td>
-      <td>0.000976</td>
-      <td>6.284832e-09</td>
-      <td>1.153203e-09</td>
-      <td>0.000058</td>
-      <td>1.104786e-09</td>
-      <td>0.004953</td>
-      <td>0.190287</td>
-      <td>0.328567</td>
-      <td>3.038103e-07</td>
+      <th>IN-JH</th>
+      <td>0.000287</td>
+      <td>0.061599</td>
+      <td>0.000140</td>
+      <td>0.062025</td>
+      <td>0.000450</td>
+      <td>0.070353</td>
+      <td>0.000057</td>
+      <td>0.000080</td>
+      <td>0.000732</td>
+      <td>1.731384e-09</td>
+      <td>0.007240</td>
+      <td>2.139614e-08</td>
+      <td>6.938799e-09</td>
+      <td>0.000249</td>
+      <td>3.841037e-09</td>
+      <td>0.088576</td>
+      <td>0.948821</td>
+      <td>0.467936</td>
+      <td>2.713751e-06</td>
     </tr>
   </tbody>
 </table>
@@ -494,13 +494,13 @@ df[("ILCD 2.0 2018 midpoint", "climate change", "climate change total")].idxmin(
 
 
     ('electricity production',
-     ' hydro',
-     ' reservoir',
-     ' alpine region',
+     ' nuclear',
+     ' boiling water reactor',
+     ' ',
      ' ',
      ' ',
      'kilowatt hour',
-     'IN-RJ')
+     'US-NPCC')
 
 
 
@@ -515,13 +515,13 @@ df[("ILCD 2.0 2018 midpoint", "climate change", "climate change total")].describ
 
 
     count    5.000000
-    mean     0.046803
-    std      0.034615
-    min      0.006968
-    25%      0.013585
-    50%      0.056464
-    75%      0.078498
-    max      0.078498
+    mean     0.359031
+    std      0.453299
+    min      0.012726
+    25%      0.062025
+    50%      0.078496
+    75%      0.588211
+    max      1.053694
     Name: (ILCD 2.0 2018 midpoint, climate change, climate change total), dtype: float64
 
 
@@ -626,58 +626,86 @@ df_normalized.head()
   <tbody>
     <tr>
       <th rowspan="5" valign="top">electricity production</th>
-      <th>photovoltaic</th>
-      <th>3kWp slanted-roof installation</th>
-      <th>multi-Si</th>
-      <th>panel</th>
-      <th>mounted</th>
+      <th>natural gas</th>
+      <th>conventional power plant</th>
+      <th></th>
+      <th></th>
+      <th></th>
       <th>kilowatt hour</th>
-      <th>IN-KA</th>
-      <td>0.524225</td>
-      <td>0.693847</td>
-      <td>0.713263</td>
-      <td>0.691966</td>
-      <td>0.704719</td>
-      <td>0.697498</td>
-      <td>0.712362</td>
-      <td>0.696513</td>
-      <td>0.691453</td>
-      <td>0.653018</td>
-      <td>0.706223</td>
-      <td>0.708526</td>
-      <td>0.703763</td>
-      <td>0.696484</td>
-      <td>0.685585</td>
-      <td>0.060491</td>
-      <td>0.704167</td>
-      <td>0.790337</td>
-      <td>0.717462</td>
+      <th>CN-JS</th>
+      <td>0.079120</td>
+      <td>0.552922</td>
+      <td>0.000000</td>
+      <td>0.552836</td>
+      <td>0.052945</td>
+      <td>1.000000</td>
+      <td>0.000000</td>
+      <td>0.081488</td>
+      <td>0.113848</td>
+      <td>0.353906</td>
+      <td>0.000000</td>
+      <td>0.220836</td>
+      <td>0.874380</td>
+      <td>0.163834</td>
+      <td>0.000000</td>
+      <td>0.000000</td>
+      <td>0.578584</td>
+      <td>0.038077</td>
+      <td>0.015627</td>
     </tr>
     <tr>
-      <th>hydro</th>
-      <th>reservoir</th>
-      <th>alpine region</th>
+      <th>hard coal</th>
+      <th></th>
+      <th></th>
       <th></th>
       <th></th>
       <th>kilowatt hour</th>
-      <th>IN-RJ</th>
+      <th>RoW</th>
+      <td>0.402550</td>
+      <td>1.000000</td>
+      <td>0.388987</td>
+      <td>1.000000</td>
+      <td>1.000000</td>
+      <td>0.255419</td>
+      <td>1.000000</td>
+      <td>1.000000</td>
+      <td>1.000000</td>
+      <td>0.612291</td>
+      <td>0.002936</td>
       <td>1.000000</td>
       <td>0.000000</td>
+      <td>1.000000</td>
+      <td>1.000000</td>
+      <td>0.369608</td>
+      <td>1.000000</td>
+      <td>1.000000</td>
+      <td>0.018639</td>
+    </tr>
+    <tr>
+      <th>nuclear</th>
+      <th>boiling water reactor</th>
+      <th></th>
+      <th></th>
+      <th></th>
+      <th>kilowatt hour</th>
+      <th>US-NPCC</th>
+      <td>0.000000</td>
+      <td>0.000000</td>
+      <td>0.087117</td>
       <td>0.000000</td>
       <td>0.000000</td>
       <td>0.000000</td>
-      <td>0.000000</td>
-      <td>0.000000</td>
-      <td>0.000000</td>
-      <td>0.000000</td>
-      <td>0.000000</td>
-      <td>0.000000</td>
-      <td>0.000000</td>
+      <td>0.001290</td>
       <td>0.000000</td>
       <td>0.000000</td>
       <td>0.000000</td>
       <td>1.000000</td>
       <td>0.000000</td>
+      <td>1.000000</td>
+      <td>0.000000</td>
+      <td>0.102994</td>
+      <td>1.000000</td>
+      <td>0.923947</td>
       <td>0.000000</td>
       <td>0.000000</td>
     </tr>
@@ -688,76 +716,48 @@ df_normalized.head()
       <th rowspan="2" valign="top">panel</th>
       <th rowspan="2" valign="top">mounted</th>
       <th rowspan="2" valign="top">kilowatt hour</th>
-      <th>CN-BJ</th>
-      <td>0.744872</td>
+      <th>LV</th>
       <td>1.000000</td>
+      <td>0.062728</td>
       <td>1.000000</td>
+      <td>0.063182</td>
+      <td>0.045976</td>
+      <td>0.332602</td>
+      <td>0.086409</td>
+      <td>0.027954</td>
+      <td>0.048144</td>
       <td>1.000000</td>
-      <td>1.000000</td>
-      <td>1.000000</td>
-      <td>1.000000</td>
-      <td>1.000000</td>
-      <td>1.000000</td>
-      <td>1.000000</td>
-      <td>1.000000</td>
-      <td>1.000000</td>
-      <td>1.000000</td>
-      <td>1.000000</td>
-      <td>1.000000</td>
-      <td>0.085640</td>
-      <td>1.000000</td>
-      <td>1.000000</td>
-      <td>1.000000</td>
-    </tr>
-    <tr>
-      <th>CN-HB</th>
-      <td>0.744872</td>
-      <td>1.000000</td>
-      <td>1.000000</td>
-      <td>1.000000</td>
-      <td>1.000000</td>
-      <td>1.000000</td>
-      <td>1.000000</td>
-      <td>1.000000</td>
-      <td>1.000000</td>
-      <td>1.000000</td>
-      <td>1.000000</td>
-      <td>1.000000</td>
-      <td>1.000000</td>
-      <td>1.000000</td>
-      <td>1.000000</td>
-      <td>0.085640</td>
-      <td>1.000000</td>
-      <td>1.000000</td>
+      <td>0.006586</td>
+      <td>0.620632</td>
+      <td>0.039030</td>
+      <td>0.064746</td>
+      <td>0.272131</td>
+      <td>0.765254</td>
+      <td>0.017496</td>
+      <td>0.223432</td>
       <td>1.000000</td>
     </tr>
     <tr>
-      <th>wind</th>
-      <th>1-3MW turbine</th>
-      <th>onshore</th>
-      <th></th>
-      <th></th>
-      <th>kilowatt hour</th>
-      <th>PT</th>
+      <th>IN-JH</th>
+      <td>0.773791</td>
+      <td>0.047011</td>
+      <td>0.770071</td>
+      <td>0.047359</td>
+      <td>0.034886</td>
+      <td>0.235214</td>
+      <td>0.066049</td>
+      <td>0.013513</td>
+      <td>0.035482</td>
+      <td>0.716799</td>
+      <td>0.004961</td>
+      <td>0.469677</td>
+      <td>0.002573</td>
+      <td>0.048516</td>
+      <td>0.185438</td>
+      <td>0.498725</td>
       <td>0.000000</td>
-      <td>0.098921</td>
-      <td>0.043470</td>
-      <td>0.092498</td>
-      <td>0.100734</td>
-      <td>0.343698</td>
-      <td>0.115057</td>
-      <td>0.098343</td>
-      <td>0.096823</td>
-      <td>0.944264</td>
-      <td>0.064845</td>
-      <td>0.202592</td>
-      <td>0.083204</td>
-      <td>0.119228</td>
-      <td>0.134425</td>
-      <td>0.000000</td>
-      <td>0.113063</td>
-      <td>0.667466</td>
-      <td>0.082456</td>
+      <td>0.168763</td>
+      <td>0.786975</td>
     </tr>
   </tbody>
 </table>
@@ -869,137 +869,143 @@ df_normalized.head()
   <tbody>
     <tr>
       <th rowspan="5" valign="top">electricity production</th>
-      <th>hydro</th>
-      <th>reservoir</th>
-      <th>alpine region</th>
+      <th>nuclear</th>
+      <th>boiling water reactor</th>
       <th></th>
-      <th></th>
-      <th>kilowatt hour</th>
-      <th>IN-RJ</th>
-      <td>1.000000</td>
-      <td>0.000000</td>
-      <td>0.000000</td>
-      <td>0.000000</td>
-      <td>0.000000</td>
-      <td>0.000000</td>
-      <td>0.000000</td>
-      <td>0.000000</td>
-      <td>0.000000</td>
-      <td>0.000000</td>
-      <td>0.000000</td>
-      <td>0.000000</td>
-      <td>0.000000</td>
-      <td>0.000000</td>
-      <td>0.000000</td>
-      <td>1.000000</td>
-      <td>0.000000</td>
-      <td>0.000000</td>
-      <td>0.000000</td>
-      <td>2.000000</td>
-    </tr>
-    <tr>
-      <th>wind</th>
-      <th>1-3MW turbine</th>
-      <th>onshore</th>
       <th></th>
       <th></th>
       <th>kilowatt hour</th>
-      <th>PT</th>
+      <th>US-NPCC</th>
       <td>0.000000</td>
-      <td>0.098921</td>
-      <td>0.043470</td>
-      <td>0.092498</td>
-      <td>0.100734</td>
-      <td>0.343698</td>
-      <td>0.115057</td>
-      <td>0.098343</td>
-      <td>0.096823</td>
-      <td>0.944264</td>
-      <td>0.064845</td>
-      <td>0.202592</td>
-      <td>0.083204</td>
-      <td>0.119228</td>
-      <td>0.134425</td>
       <td>0.000000</td>
-      <td>0.113063</td>
-      <td>0.667466</td>
-      <td>0.082456</td>
-      <td>3.401089</td>
+      <td>0.087117</td>
+      <td>0.000000</td>
+      <td>0.000000</td>
+      <td>0.000000</td>
+      <td>0.001290</td>
+      <td>0.000000</td>
+      <td>0.000000</td>
+      <td>0.000000</td>
+      <td>1.000000</td>
+      <td>0.000000</td>
+      <td>1.000000</td>
+      <td>0.000000</td>
+      <td>0.102994</td>
+      <td>1.000000</td>
+      <td>0.923947</td>
+      <td>0.000000</td>
+      <td>0.000000</td>
+      <td>4.115347</td>
     </tr>
     <tr>
-      <th rowspan="3" valign="top">photovoltaic</th>
-      <th rowspan="3" valign="top">3kWp slanted-roof installation</th>
-      <th rowspan="3" valign="top">multi-Si</th>
-      <th rowspan="3" valign="top">panel</th>
-      <th rowspan="3" valign="top">mounted</th>
-      <th rowspan="3" valign="top">kilowatt hour</th>
-      <th>IN-KA</th>
-      <td>0.524225</td>
-      <td>0.693847</td>
-      <td>0.713263</td>
-      <td>0.691966</td>
-      <td>0.704719</td>
-      <td>0.697498</td>
-      <td>0.712362</td>
-      <td>0.696513</td>
-      <td>0.691453</td>
-      <td>0.653018</td>
-      <td>0.706223</td>
-      <td>0.708526</td>
-      <td>0.703763</td>
-      <td>0.696484</td>
-      <td>0.685585</td>
-      <td>0.060491</td>
-      <td>0.704167</td>
-      <td>0.790337</td>
-      <td>0.717462</td>
-      <td>12.551903</td>
+      <th>natural gas</th>
+      <th>conventional power plant</th>
+      <th></th>
+      <th></th>
+      <th></th>
+      <th>kilowatt hour</th>
+      <th>CN-JS</th>
+      <td>0.079120</td>
+      <td>0.552922</td>
+      <td>0.000000</td>
+      <td>0.552836</td>
+      <td>0.052945</td>
+      <td>1.000000</td>
+      <td>0.000000</td>
+      <td>0.081488</td>
+      <td>0.113848</td>
+      <td>0.353906</td>
+      <td>0.000000</td>
+      <td>0.220836</td>
+      <td>0.874380</td>
+      <td>0.163834</td>
+      <td>0.000000</td>
+      <td>0.000000</td>
+      <td>0.578584</td>
+      <td>0.038077</td>
+      <td>0.015627</td>
+      <td>4.678403</td>
     </tr>
     <tr>
-      <th>CN-BJ</th>
-      <td>0.744872</td>
-      <td>1.000000</td>
-      <td>1.000000</td>
-      <td>1.000000</td>
-      <td>1.000000</td>
-      <td>1.000000</td>
-      <td>1.000000</td>
-      <td>1.000000</td>
-      <td>1.000000</td>
-      <td>1.000000</td>
-      <td>1.000000</td>
-      <td>1.000000</td>
-      <td>1.000000</td>
-      <td>1.000000</td>
-      <td>1.000000</td>
-      <td>0.085640</td>
-      <td>1.000000</td>
-      <td>1.000000</td>
-      <td>1.000000</td>
-      <td>17.830512</td>
+      <th rowspan="2" valign="top">photovoltaic</th>
+      <th rowspan="2" valign="top">3kWp slanted-roof installation</th>
+      <th rowspan="2" valign="top">multi-Si</th>
+      <th rowspan="2" valign="top">panel</th>
+      <th rowspan="2" valign="top">mounted</th>
+      <th rowspan="2" valign="top">kilowatt hour</th>
+      <th>IN-JH</th>
+      <td>0.773791</td>
+      <td>0.047011</td>
+      <td>0.770071</td>
+      <td>0.047359</td>
+      <td>0.034886</td>
+      <td>0.235214</td>
+      <td>0.066049</td>
+      <td>0.013513</td>
+      <td>0.035482</td>
+      <td>0.716799</td>
+      <td>0.004961</td>
+      <td>0.469677</td>
+      <td>0.002573</td>
+      <td>0.048516</td>
+      <td>0.185438</td>
+      <td>0.498725</td>
+      <td>0.000000</td>
+      <td>0.168763</td>
+      <td>0.786975</td>
+      <td>4.905804</td>
     </tr>
     <tr>
-      <th>CN-HB</th>
-      <td>0.744872</td>
+      <th>LV</th>
+      <td>1.000000</td>
+      <td>0.062728</td>
+      <td>1.000000</td>
+      <td>0.063182</td>
+      <td>0.045976</td>
+      <td>0.332602</td>
+      <td>0.086409</td>
+      <td>0.027954</td>
+      <td>0.048144</td>
+      <td>1.000000</td>
+      <td>0.006586</td>
+      <td>0.620632</td>
+      <td>0.039030</td>
+      <td>0.064746</td>
+      <td>0.272131</td>
+      <td>0.765254</td>
+      <td>0.017496</td>
+      <td>0.223432</td>
+      <td>1.000000</td>
+      <td>6.676299</td>
+    </tr>
+    <tr>
+      <th>hard coal</th>
+      <th></th>
+      <th></th>
+      <th></th>
+      <th></th>
+      <th>kilowatt hour</th>
+      <th>RoW</th>
+      <td>0.402550</td>
+      <td>1.000000</td>
+      <td>0.388987</td>
+      <td>1.000000</td>
+      <td>1.000000</td>
+      <td>0.255419</td>
       <td>1.000000</td>
       <td>1.000000</td>
       <td>1.000000</td>
+      <td>0.612291</td>
+      <td>0.002936</td>
+      <td>1.000000</td>
+      <td>0.000000</td>
       <td>1.000000</td>
       <td>1.000000</td>
+      <td>0.369608</td>
       <td>1.000000</td>
       <td>1.000000</td>
-      <td>1.000000</td>
-      <td>1.000000</td>
-      <td>1.000000</td>
-      <td>1.000000</td>
-      <td>1.000000</td>
-      <td>1.000000</td>
-      <td>1.000000</td>
-      <td>0.085640</td>
-      <td>1.000000</td>
-      <td>1.000000</td>
-      <td>1.000000</td>
-      <td>17.830512</td>
+      <td>0.018639</td>
+      <td>13.050429</td>
     </tr>
   </tbody>
 </table>
@@ -1057,7 +1063,7 @@ TOOLTIPS = [
 # make figure
 f = bokeh.plotting.figure(
     x_axis_label="ILCD 2.0 midpoint indicator", y_axis_label='ecoinvent activity',
-    plot_width=800, plot_height=900, sizing_mode="stretch_both",  
+    plot_width=900, plot_height=800,   
     tooltips = TOOLTIPS,
     y_range=bokeh.models.FactorRange(*names),
     x_range=bokeh.models.FactorRange(*methods)
@@ -1092,7 +1098,7 @@ bokeh.io.show(f)
 
     <div class="bk-root">
         <a href="https://bokeh.pydata.org" target="_blank" class="bk-logo bk-logo-small bk-logo-notebook"></a>
-        <span id="1040">Loading BokehJS ...</span>
+        <span id="1631">Loading BokehJS ...</span>
     </div>
 
 
@@ -1105,7 +1111,7 @@ bokeh.io.show(f)
 
 
 
-  <div class="bk-root" id="e336ed91-d057-4bf1-90c9-c99d88e983de" data-root-id="1003"></div>
+  <div class="bk-root" id="8a597481-c264-464b-9e18-ae3bc871afe8" data-root-id="1594"></div>
 
 
 
@@ -1120,8 +1126,3 @@ path = bokeh.io.save(f)
 ```
 
 ## Discussion
-
-
-```python
-
-```

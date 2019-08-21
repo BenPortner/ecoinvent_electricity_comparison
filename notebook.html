@@ -1,13 +1,8 @@
 <!DOCTYPE html>
 <html>
 <head><meta charset="utf-8" />
-
-<title>ecoinvent_electricity_comparison</title>
-
-<script src="https://cdnjs.cloudflare.com/ajax/libs/require.js/2.1.10/require.min.js"></script>
+<title>notebook</title><script src="https://cdnjs.cloudflare.com/ajax/libs/require.js/2.1.10/require.min.js"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.0.3/jquery.min.js"></script>
-
-
 
 <style type="text/css">
     /*!
@@ -204,6 +199,7 @@ th {
   *:before,
   *:after {
     background: transparent !important;
+    color: #000 !important;
     box-shadow: none !important;
     text-shadow: none !important;
   }
@@ -6748,15 +6744,15 @@ button.close {
 *
 */
 /*!
- *  Font Awesome 4.7.0 by @davegandy - http://fontawesome.io - @fontawesome
+ *  Font Awesome 4.2.0 by @davegandy - http://fontawesome.io - @fontawesome
  *  License - http://fontawesome.io/license (Font: SIL OFL 1.1, CSS: MIT License)
  */
 /* FONT PATH
  * -------------------------- */
 @font-face {
   font-family: 'FontAwesome';
-  src: url('../components/font-awesome/fonts/fontawesome-webfont.eot?v=4.7.0');
-  src: url('../components/font-awesome/fonts/fontawesome-webfont.eot?#iefix&v=4.7.0') format('embedded-opentype'), url('../components/font-awesome/fonts/fontawesome-webfont.woff2?v=4.7.0') format('woff2'), url('../components/font-awesome/fonts/fontawesome-webfont.woff?v=4.7.0') format('woff'), url('../components/font-awesome/fonts/fontawesome-webfont.ttf?v=4.7.0') format('truetype'), url('../components/font-awesome/fonts/fontawesome-webfont.svg?v=4.7.0#fontawesomeregular') format('svg');
+  src: url('../components/font-awesome/fonts/fontawesome-webfont.eot?v=4.2.0');
+  src: url('../components/font-awesome/fonts/fontawesome-webfont.eot?#iefix&v=4.2.0') format('embedded-opentype'), url('../components/font-awesome/fonts/fontawesome-webfont.woff?v=4.2.0') format('woff'), url('../components/font-awesome/fonts/fontawesome-webfont.ttf?v=4.2.0') format('truetype'), url('../components/font-awesome/fonts/fontawesome-webfont.svg?v=4.2.0#fontawesomeregular') format('svg');
   font-weight: normal;
   font-style: normal;
 }
@@ -6813,19 +6809,6 @@ button.close {
   border: solid 0.08em #eee;
   border-radius: .1em;
 }
-.fa-pull-left {
-  float: left;
-}
-.fa-pull-right {
-  float: right;
-}
-.fa.fa-pull-left {
-  margin-right: .3em;
-}
-.fa.fa-pull-right {
-  margin-left: .3em;
-}
-/* Deprecated as of 4.4.0 */
 .pull-right {
   float: right;
 }
@@ -6841,10 +6824,6 @@ button.close {
 .fa-spin {
   -webkit-animation: fa-spin 2s infinite linear;
   animation: fa-spin 2s infinite linear;
-}
-.fa-pulse {
-  -webkit-animation: fa-spin 1s infinite steps(8);
-  animation: fa-spin 1s infinite steps(8);
 }
 @-webkit-keyframes fa-spin {
   0% {
@@ -6867,31 +6846,31 @@ button.close {
   }
 }
 .fa-rotate-90 {
-  -ms-filter: "progid:DXImageTransform.Microsoft.BasicImage(rotation=1)";
+  filter: progid:DXImageTransform.Microsoft.BasicImage(rotation=1);
   -webkit-transform: rotate(90deg);
   -ms-transform: rotate(90deg);
   transform: rotate(90deg);
 }
 .fa-rotate-180 {
-  -ms-filter: "progid:DXImageTransform.Microsoft.BasicImage(rotation=2)";
+  filter: progid:DXImageTransform.Microsoft.BasicImage(rotation=2);
   -webkit-transform: rotate(180deg);
   -ms-transform: rotate(180deg);
   transform: rotate(180deg);
 }
 .fa-rotate-270 {
-  -ms-filter: "progid:DXImageTransform.Microsoft.BasicImage(rotation=3)";
+  filter: progid:DXImageTransform.Microsoft.BasicImage(rotation=3);
   -webkit-transform: rotate(270deg);
   -ms-transform: rotate(270deg);
   transform: rotate(270deg);
 }
 .fa-flip-horizontal {
-  -ms-filter: "progid:DXImageTransform.Microsoft.BasicImage(rotation=0, mirror=1)";
+  filter: progid:DXImageTransform.Microsoft.BasicImage(rotation=0, mirror=1);
   -webkit-transform: scale(-1, 1);
   -ms-transform: scale(-1, 1);
   transform: scale(-1, 1);
 }
 .fa-flip-vertical {
-  -ms-filter: "progid:DXImageTransform.Microsoft.BasicImage(rotation=2, mirror=1)";
+  filter: progid:DXImageTransform.Microsoft.BasicImage(rotation=2, mirror=1);
   -webkit-transform: scale(1, -1);
   -ms-transform: scale(1, -1);
   transform: scale(1, -1);
@@ -7376,7 +7355,6 @@ button.close {
 .fa-twitter:before {
   content: "\f099";
 }
-.fa-facebook-f:before,
 .fa-facebook:before {
   content: "\f09a";
 }
@@ -7389,7 +7367,6 @@ button.close {
 .fa-credit-card:before {
   content: "\f09d";
 }
-.fa-feed:before,
 .fa-rss:before {
   content: "\f09e";
 }
@@ -8027,8 +8004,7 @@ button.close {
 .fa-male:before {
   content: "\f183";
 }
-.fa-gittip:before,
-.fa-gratipay:before {
+.fa-gittip:before {
   content: "\f184";
 }
 .fa-sun-o:before {
@@ -8132,7 +8108,7 @@ button.close {
 .fa-digg:before {
   content: "\f1a6";
 }
-.fa-pied-piper-pp:before {
+.fa-pied-piper:before {
   content: "\f1a7";
 }
 .fa-pied-piper-alt:before {
@@ -8258,7 +8234,6 @@ button.close {
   content: "\f1ce";
 }
 .fa-ra:before,
-.fa-resistance:before,
 .fa-rebel:before {
   content: "\f1d0";
 }
@@ -8272,8 +8247,6 @@ button.close {
 .fa-git:before {
   content: "\f1d3";
 }
-.fa-y-combinator-square:before,
-.fa-yc-square:before,
 .fa-hacker-news:before {
   content: "\f1d4";
 }
@@ -8441,657 +8414,6 @@ button.close {
 }
 .fa-meanpath:before {
   content: "\f20c";
-}
-.fa-buysellads:before {
-  content: "\f20d";
-}
-.fa-connectdevelop:before {
-  content: "\f20e";
-}
-.fa-dashcube:before {
-  content: "\f210";
-}
-.fa-forumbee:before {
-  content: "\f211";
-}
-.fa-leanpub:before {
-  content: "\f212";
-}
-.fa-sellsy:before {
-  content: "\f213";
-}
-.fa-shirtsinbulk:before {
-  content: "\f214";
-}
-.fa-simplybuilt:before {
-  content: "\f215";
-}
-.fa-skyatlas:before {
-  content: "\f216";
-}
-.fa-cart-plus:before {
-  content: "\f217";
-}
-.fa-cart-arrow-down:before {
-  content: "\f218";
-}
-.fa-diamond:before {
-  content: "\f219";
-}
-.fa-ship:before {
-  content: "\f21a";
-}
-.fa-user-secret:before {
-  content: "\f21b";
-}
-.fa-motorcycle:before {
-  content: "\f21c";
-}
-.fa-street-view:before {
-  content: "\f21d";
-}
-.fa-heartbeat:before {
-  content: "\f21e";
-}
-.fa-venus:before {
-  content: "\f221";
-}
-.fa-mars:before {
-  content: "\f222";
-}
-.fa-mercury:before {
-  content: "\f223";
-}
-.fa-intersex:before,
-.fa-transgender:before {
-  content: "\f224";
-}
-.fa-transgender-alt:before {
-  content: "\f225";
-}
-.fa-venus-double:before {
-  content: "\f226";
-}
-.fa-mars-double:before {
-  content: "\f227";
-}
-.fa-venus-mars:before {
-  content: "\f228";
-}
-.fa-mars-stroke:before {
-  content: "\f229";
-}
-.fa-mars-stroke-v:before {
-  content: "\f22a";
-}
-.fa-mars-stroke-h:before {
-  content: "\f22b";
-}
-.fa-neuter:before {
-  content: "\f22c";
-}
-.fa-genderless:before {
-  content: "\f22d";
-}
-.fa-facebook-official:before {
-  content: "\f230";
-}
-.fa-pinterest-p:before {
-  content: "\f231";
-}
-.fa-whatsapp:before {
-  content: "\f232";
-}
-.fa-server:before {
-  content: "\f233";
-}
-.fa-user-plus:before {
-  content: "\f234";
-}
-.fa-user-times:before {
-  content: "\f235";
-}
-.fa-hotel:before,
-.fa-bed:before {
-  content: "\f236";
-}
-.fa-viacoin:before {
-  content: "\f237";
-}
-.fa-train:before {
-  content: "\f238";
-}
-.fa-subway:before {
-  content: "\f239";
-}
-.fa-medium:before {
-  content: "\f23a";
-}
-.fa-yc:before,
-.fa-y-combinator:before {
-  content: "\f23b";
-}
-.fa-optin-monster:before {
-  content: "\f23c";
-}
-.fa-opencart:before {
-  content: "\f23d";
-}
-.fa-expeditedssl:before {
-  content: "\f23e";
-}
-.fa-battery-4:before,
-.fa-battery:before,
-.fa-battery-full:before {
-  content: "\f240";
-}
-.fa-battery-3:before,
-.fa-battery-three-quarters:before {
-  content: "\f241";
-}
-.fa-battery-2:before,
-.fa-battery-half:before {
-  content: "\f242";
-}
-.fa-battery-1:before,
-.fa-battery-quarter:before {
-  content: "\f243";
-}
-.fa-battery-0:before,
-.fa-battery-empty:before {
-  content: "\f244";
-}
-.fa-mouse-pointer:before {
-  content: "\f245";
-}
-.fa-i-cursor:before {
-  content: "\f246";
-}
-.fa-object-group:before {
-  content: "\f247";
-}
-.fa-object-ungroup:before {
-  content: "\f248";
-}
-.fa-sticky-note:before {
-  content: "\f249";
-}
-.fa-sticky-note-o:before {
-  content: "\f24a";
-}
-.fa-cc-jcb:before {
-  content: "\f24b";
-}
-.fa-cc-diners-club:before {
-  content: "\f24c";
-}
-.fa-clone:before {
-  content: "\f24d";
-}
-.fa-balance-scale:before {
-  content: "\f24e";
-}
-.fa-hourglass-o:before {
-  content: "\f250";
-}
-.fa-hourglass-1:before,
-.fa-hourglass-start:before {
-  content: "\f251";
-}
-.fa-hourglass-2:before,
-.fa-hourglass-half:before {
-  content: "\f252";
-}
-.fa-hourglass-3:before,
-.fa-hourglass-end:before {
-  content: "\f253";
-}
-.fa-hourglass:before {
-  content: "\f254";
-}
-.fa-hand-grab-o:before,
-.fa-hand-rock-o:before {
-  content: "\f255";
-}
-.fa-hand-stop-o:before,
-.fa-hand-paper-o:before {
-  content: "\f256";
-}
-.fa-hand-scissors-o:before {
-  content: "\f257";
-}
-.fa-hand-lizard-o:before {
-  content: "\f258";
-}
-.fa-hand-spock-o:before {
-  content: "\f259";
-}
-.fa-hand-pointer-o:before {
-  content: "\f25a";
-}
-.fa-hand-peace-o:before {
-  content: "\f25b";
-}
-.fa-trademark:before {
-  content: "\f25c";
-}
-.fa-registered:before {
-  content: "\f25d";
-}
-.fa-creative-commons:before {
-  content: "\f25e";
-}
-.fa-gg:before {
-  content: "\f260";
-}
-.fa-gg-circle:before {
-  content: "\f261";
-}
-.fa-tripadvisor:before {
-  content: "\f262";
-}
-.fa-odnoklassniki:before {
-  content: "\f263";
-}
-.fa-odnoklassniki-square:before {
-  content: "\f264";
-}
-.fa-get-pocket:before {
-  content: "\f265";
-}
-.fa-wikipedia-w:before {
-  content: "\f266";
-}
-.fa-safari:before {
-  content: "\f267";
-}
-.fa-chrome:before {
-  content: "\f268";
-}
-.fa-firefox:before {
-  content: "\f269";
-}
-.fa-opera:before {
-  content: "\f26a";
-}
-.fa-internet-explorer:before {
-  content: "\f26b";
-}
-.fa-tv:before,
-.fa-television:before {
-  content: "\f26c";
-}
-.fa-contao:before {
-  content: "\f26d";
-}
-.fa-500px:before {
-  content: "\f26e";
-}
-.fa-amazon:before {
-  content: "\f270";
-}
-.fa-calendar-plus-o:before {
-  content: "\f271";
-}
-.fa-calendar-minus-o:before {
-  content: "\f272";
-}
-.fa-calendar-times-o:before {
-  content: "\f273";
-}
-.fa-calendar-check-o:before {
-  content: "\f274";
-}
-.fa-industry:before {
-  content: "\f275";
-}
-.fa-map-pin:before {
-  content: "\f276";
-}
-.fa-map-signs:before {
-  content: "\f277";
-}
-.fa-map-o:before {
-  content: "\f278";
-}
-.fa-map:before {
-  content: "\f279";
-}
-.fa-commenting:before {
-  content: "\f27a";
-}
-.fa-commenting-o:before {
-  content: "\f27b";
-}
-.fa-houzz:before {
-  content: "\f27c";
-}
-.fa-vimeo:before {
-  content: "\f27d";
-}
-.fa-black-tie:before {
-  content: "\f27e";
-}
-.fa-fonticons:before {
-  content: "\f280";
-}
-.fa-reddit-alien:before {
-  content: "\f281";
-}
-.fa-edge:before {
-  content: "\f282";
-}
-.fa-credit-card-alt:before {
-  content: "\f283";
-}
-.fa-codiepie:before {
-  content: "\f284";
-}
-.fa-modx:before {
-  content: "\f285";
-}
-.fa-fort-awesome:before {
-  content: "\f286";
-}
-.fa-usb:before {
-  content: "\f287";
-}
-.fa-product-hunt:before {
-  content: "\f288";
-}
-.fa-mixcloud:before {
-  content: "\f289";
-}
-.fa-scribd:before {
-  content: "\f28a";
-}
-.fa-pause-circle:before {
-  content: "\f28b";
-}
-.fa-pause-circle-o:before {
-  content: "\f28c";
-}
-.fa-stop-circle:before {
-  content: "\f28d";
-}
-.fa-stop-circle-o:before {
-  content: "\f28e";
-}
-.fa-shopping-bag:before {
-  content: "\f290";
-}
-.fa-shopping-basket:before {
-  content: "\f291";
-}
-.fa-hashtag:before {
-  content: "\f292";
-}
-.fa-bluetooth:before {
-  content: "\f293";
-}
-.fa-bluetooth-b:before {
-  content: "\f294";
-}
-.fa-percent:before {
-  content: "\f295";
-}
-.fa-gitlab:before {
-  content: "\f296";
-}
-.fa-wpbeginner:before {
-  content: "\f297";
-}
-.fa-wpforms:before {
-  content: "\f298";
-}
-.fa-envira:before {
-  content: "\f299";
-}
-.fa-universal-access:before {
-  content: "\f29a";
-}
-.fa-wheelchair-alt:before {
-  content: "\f29b";
-}
-.fa-question-circle-o:before {
-  content: "\f29c";
-}
-.fa-blind:before {
-  content: "\f29d";
-}
-.fa-audio-description:before {
-  content: "\f29e";
-}
-.fa-volume-control-phone:before {
-  content: "\f2a0";
-}
-.fa-braille:before {
-  content: "\f2a1";
-}
-.fa-assistive-listening-systems:before {
-  content: "\f2a2";
-}
-.fa-asl-interpreting:before,
-.fa-american-sign-language-interpreting:before {
-  content: "\f2a3";
-}
-.fa-deafness:before,
-.fa-hard-of-hearing:before,
-.fa-deaf:before {
-  content: "\f2a4";
-}
-.fa-glide:before {
-  content: "\f2a5";
-}
-.fa-glide-g:before {
-  content: "\f2a6";
-}
-.fa-signing:before,
-.fa-sign-language:before {
-  content: "\f2a7";
-}
-.fa-low-vision:before {
-  content: "\f2a8";
-}
-.fa-viadeo:before {
-  content: "\f2a9";
-}
-.fa-viadeo-square:before {
-  content: "\f2aa";
-}
-.fa-snapchat:before {
-  content: "\f2ab";
-}
-.fa-snapchat-ghost:before {
-  content: "\f2ac";
-}
-.fa-snapchat-square:before {
-  content: "\f2ad";
-}
-.fa-pied-piper:before {
-  content: "\f2ae";
-}
-.fa-first-order:before {
-  content: "\f2b0";
-}
-.fa-yoast:before {
-  content: "\f2b1";
-}
-.fa-themeisle:before {
-  content: "\f2b2";
-}
-.fa-google-plus-circle:before,
-.fa-google-plus-official:before {
-  content: "\f2b3";
-}
-.fa-fa:before,
-.fa-font-awesome:before {
-  content: "\f2b4";
-}
-.fa-handshake-o:before {
-  content: "\f2b5";
-}
-.fa-envelope-open:before {
-  content: "\f2b6";
-}
-.fa-envelope-open-o:before {
-  content: "\f2b7";
-}
-.fa-linode:before {
-  content: "\f2b8";
-}
-.fa-address-book:before {
-  content: "\f2b9";
-}
-.fa-address-book-o:before {
-  content: "\f2ba";
-}
-.fa-vcard:before,
-.fa-address-card:before {
-  content: "\f2bb";
-}
-.fa-vcard-o:before,
-.fa-address-card-o:before {
-  content: "\f2bc";
-}
-.fa-user-circle:before {
-  content: "\f2bd";
-}
-.fa-user-circle-o:before {
-  content: "\f2be";
-}
-.fa-user-o:before {
-  content: "\f2c0";
-}
-.fa-id-badge:before {
-  content: "\f2c1";
-}
-.fa-drivers-license:before,
-.fa-id-card:before {
-  content: "\f2c2";
-}
-.fa-drivers-license-o:before,
-.fa-id-card-o:before {
-  content: "\f2c3";
-}
-.fa-quora:before {
-  content: "\f2c4";
-}
-.fa-free-code-camp:before {
-  content: "\f2c5";
-}
-.fa-telegram:before {
-  content: "\f2c6";
-}
-.fa-thermometer-4:before,
-.fa-thermometer:before,
-.fa-thermometer-full:before {
-  content: "\f2c7";
-}
-.fa-thermometer-3:before,
-.fa-thermometer-three-quarters:before {
-  content: "\f2c8";
-}
-.fa-thermometer-2:before,
-.fa-thermometer-half:before {
-  content: "\f2c9";
-}
-.fa-thermometer-1:before,
-.fa-thermometer-quarter:before {
-  content: "\f2ca";
-}
-.fa-thermometer-0:before,
-.fa-thermometer-empty:before {
-  content: "\f2cb";
-}
-.fa-shower:before {
-  content: "\f2cc";
-}
-.fa-bathtub:before,
-.fa-s15:before,
-.fa-bath:before {
-  content: "\f2cd";
-}
-.fa-podcast:before {
-  content: "\f2ce";
-}
-.fa-window-maximize:before {
-  content: "\f2d0";
-}
-.fa-window-minimize:before {
-  content: "\f2d1";
-}
-.fa-window-restore:before {
-  content: "\f2d2";
-}
-.fa-times-rectangle:before,
-.fa-window-close:before {
-  content: "\f2d3";
-}
-.fa-times-rectangle-o:before,
-.fa-window-close-o:before {
-  content: "\f2d4";
-}
-.fa-bandcamp:before {
-  content: "\f2d5";
-}
-.fa-grav:before {
-  content: "\f2d6";
-}
-.fa-etsy:before {
-  content: "\f2d7";
-}
-.fa-imdb:before {
-  content: "\f2d8";
-}
-.fa-ravelry:before {
-  content: "\f2d9";
-}
-.fa-eercast:before {
-  content: "\f2da";
-}
-.fa-microchip:before {
-  content: "\f2db";
-}
-.fa-snowflake-o:before {
-  content: "\f2dc";
-}
-.fa-superpowers:before {
-  content: "\f2dd";
-}
-.fa-wpexplorer:before {
-  content: "\f2de";
-}
-.fa-meetup:before {
-  content: "\f2e0";
-}
-.sr-only {
-  position: absolute;
-  width: 1px;
-  height: 1px;
-  padding: 0;
-  margin: -1px;
-  overflow: hidden;
-  clip: rect(0, 0, 0, 0);
-  border: 0;
-}
-.sr-only-focusable:active,
-.sr-only-focusable:focus {
-  position: static;
-  width: auto;
-  height: auto;
-  margin: 0;
-  overflow: visible;
-  clip: auto;
-}
-.sr-only-focusable:active,
-.sr-only-focusable:focus {
-  position: static;
-  width: auto;
-  height: auto;
-  margin: 0;
-  overflow: visible;
-  clip: auto;
 }
 /*!
 *
@@ -9372,10 +8694,6 @@ div.traceback-wrapper {
   max-width: 800px;
   margin: auto;
 }
-div.traceback-wrapper pre.traceback {
-  max-height: 600px;
-  overflow: auto;
-}
 /**
  * Primary styles
  *
@@ -9401,10 +8719,6 @@ body > #header {
   z-index: 100;
 }
 body > #header #header-container {
-  display: flex;
-  flex-direction: row;
-  justify-content: space-between;
-  padding: 5px;
   padding-bottom: 5px;
   padding-top: 5px;
   box-sizing: border-box;
@@ -9436,16 +8750,13 @@ body > #header .header-bar {
   padding-top: 1px;
   padding-bottom: 1px;
 }
+@media (max-width: 991px) {
+  #ipython_notebook {
+    margin-left: 10px;
+  }
+}
 [dir="rtl"] #ipython_notebook {
-  margin-right: 10px;
-  margin-left: 0;
-}
-[dir="rtl"] #ipython_notebook.pull-left {
   float: right !important;
-  float: right;
-}
-.flex-spacer {
-  flex: 1;
 }
 #noscript {
   width: auto;
@@ -9480,14 +8791,8 @@ body > #header .header-bar {
 input.ui-button {
   padding: 0.3em 0.9em;
 }
-span#kernel_logo_widget {
-  margin: 0 10px;
-}
 span#login_widget {
   float: right;
-}
-[dir="rtl"] span#login_widget {
-  float: left;
 }
 span#login_widget > .button,
 #logout {
@@ -9603,9 +8908,6 @@ span#login_widget > .button .badge,
   overflow: auto;
   flex: 1;
 }
-.modal-header {
-  cursor: move;
-}
 @media (min-width: 768px) {
   .modal .modal-dialog {
     width: 700px;
@@ -9626,19 +8928,6 @@ span#login_widget > .button .badge,
   display: inline-block;
   margin-bottom: -4px;
 }
-[dir="rtl"] .center-nav form.pull-left {
-  float: right !important;
-  float: right;
-}
-[dir="rtl"] .center-nav .navbar-text {
-  float: right;
-}
-[dir="rtl"] .navbar-inner {
-  text-align: right;
-}
-[dir="rtl"] div.text-left {
-  text-align: right;
-}
 /*!
 *
 * IPython tree view
@@ -9655,42 +8944,34 @@ span#login_widget > .button .badge,
   margin: 0;
 }
 .alternate_upload input.fileinput {
-  position: absolute;
-  display: block;
-  width: 100%;
-  height: 100%;
-  overflow: hidden;
-  cursor: pointer;
+  text-align: center;
+  vertical-align: middle;
+  display: inline;
   opacity: 0;
   z-index: 2;
-}
-.alternate_upload .btn-xs > input.fileinput {
-  margin: -1px -5px;
+  width: 12ex;
+  margin-right: -12ex;
 }
 .alternate_upload .btn-upload {
-  position: relative;
   height: 22px;
-}
-::-webkit-file-upload-button {
-  cursor: pointer;
 }
 /**
  * Primary styles
  *
  * Author: Jupyter Development Team
  */
+[dir="rtl"] #tabs li {
+  float: right;
+}
 ul#tabs {
   margin-bottom: 4px;
+}
+[dir="rtl"] ul#tabs {
+  margin-right: 0px;
 }
 ul#tabs a {
   padding-top: 6px;
   padding-bottom: 4px;
-}
-[dir="rtl"] ul#tabs.nav-tabs > li {
-  float: right;
-}
-[dir="rtl"] ul#tabs.nav.nav-tabs {
-  padding-right: 0;
 }
 ul.breadcrumb a:focus,
 ul.breadcrumb a:hover {
@@ -9710,13 +8991,15 @@ ul.breadcrumb span {
 .list_toolbar .tree-buttons {
   padding-top: 1px;
 }
-[dir="rtl"] .list_toolbar .tree-buttons .pull-right {
+[dir="rtl"] .list_toolbar .tree-buttons {
   float: left !important;
-  float: left;
 }
-[dir="rtl"] .list_toolbar .col-sm-4,
-[dir="rtl"] .list_toolbar .col-sm-8 {
-  float: right;
+[dir="rtl"] .list_toolbar .pull-right {
+  padding-top: 1px;
+  float: left !important;
+}
+[dir="rtl"] .list_toolbar .pull-left {
+  float: right !important;
 }
 .dynamic-buttons {
   padding-top: 3px;
@@ -9772,7 +9055,7 @@ ul.breadcrumb span {
 .list_item > div input {
   margin-right: 7px;
   margin-left: 14px;
-  vertical-align: text-bottom;
+  vertical-align: baseline;
   line-height: 22px;
   position: relative;
   top: -1px;
@@ -9782,9 +9065,6 @@ ul.breadcrumb span {
   margin-left: -1px;
   vertical-align: baseline;
   line-height: 22px;
-}
-[dir="rtl"] .list_item > div input {
-  margin-right: 0;
 }
 .new-file input[type=checkbox] {
   visibility: hidden;
@@ -9800,14 +9080,6 @@ ul.breadcrumb span {
   margin-left: 7px;
   line-height: 22px;
   vertical-align: baseline;
-}
-.item_modified {
-  margin-right: 7px;
-  margin-left: 7px;
-}
-[dir="rtl"] .item_modified.pull-right {
-  float: left !important;
-  float: left;
 }
 .item_buttons {
   line-height: 1em;
@@ -9836,14 +9108,6 @@ ul.breadcrumb span {
   margin-right: 7px;
   float: left;
 }
-[dir="rtl"] .item_buttons.pull-right {
-  float: left !important;
-  float: left;
-}
-[dir="rtl"] .item_buttons .kernel-name {
-  margin-left: 7px;
-  float: right;
-}
 .toolbar_info {
   height: 24px;
   line-height: 24px;
@@ -9869,32 +9133,18 @@ ul.breadcrumb span {
   background-color: transparent;
   font-weight: bold;
 }
-.sort_button {
-  display: inline-block;
-  padding-left: 7px;
-}
-[dir="rtl"] .sort_button.pull-right {
-  float: left !important;
-  float: left;
-}
 #tree-selector {
   padding-right: 0px;
+}
+[dir="rtl"] #tree-selector a {
+  float: right;
 }
 #button-select-all {
   min-width: 50px;
 }
-[dir="rtl"] #button-select-all.btn {
-  float: right ;
-}
 #select-all {
   margin-left: 7px;
   margin-right: 2px;
-  margin-top: 2px;
-  height: 16px;
-}
-[dir="rtl"] #select-all.pull-left {
-  float: right !important;
-  float: right;
 }
 .menu_icon {
   margin-right: 2px;
@@ -9912,12 +9162,6 @@ ul.breadcrumb span {
   -moz-osx-font-smoothing: grayscale;
   content: "\f114";
 }
-.folder_icon:before.fa-pull-left {
-  margin-right: .3em;
-}
-.folder_icon:before.fa-pull-right {
-  margin-left: .3em;
-}
 .folder_icon:before.pull-left {
   margin-right: .3em;
 }
@@ -9934,12 +9178,6 @@ ul.breadcrumb span {
   content: "\f02d";
   position: relative;
   top: -1px;
-}
-.notebook_icon:before.fa-pull-left {
-  margin-right: .3em;
-}
-.notebook_icon:before.fa-pull-right {
-  margin-left: .3em;
 }
 .notebook_icon:before.pull-left {
   margin-right: .3em;
@@ -9959,12 +9197,6 @@ ul.breadcrumb span {
   top: -1px;
   color: #5cb85c;
 }
-.running_notebook_icon:before.fa-pull-left {
-  margin-right: .3em;
-}
-.running_notebook_icon:before.fa-pull-right {
-  margin-left: .3em;
-}
 .running_notebook_icon:before.pull-left {
   margin-right: .3em;
 }
@@ -9982,12 +9214,6 @@ ul.breadcrumb span {
   position: relative;
   top: -2px;
 }
-.file_icon:before.fa-pull-left {
-  margin-right: .3em;
-}
-.file_icon:before.fa-pull-right {
-  margin-left: .3em;
-}
 .file_icon:before.pull-left {
   margin-right: .3em;
 }
@@ -10002,11 +9228,8 @@ ul#new-menu {
   left: auto;
   right: 0;
 }
-#new-menu .dropdown-header {
-  font-size: 10px;
-  border-bottom: 1px solid #e5e5e5;
-  padding: 0 0 3px;
-  margin: -3px 20px 0;
+[dir="rtl"] #new-menu {
+  text-align: right;
 }
 .kernel-menu-icon {
   padding-right: 12px;
@@ -10053,6 +9276,9 @@ ul#new-menu {
 #running .panel-group .panel .panel-body .list_container .list_item:last-child {
   border-bottom: 0px;
 }
+[dir="rtl"] #running .col-sm-8 {
+  float: right !important;
+}
 .delete-button {
   display: none;
 }
@@ -10060,12 +9286,6 @@ ul#new-menu {
   display: none;
 }
 .rename-button {
-  display: none;
-}
-.move-button {
-  display: none;
-}
-.download-button {
   display: none;
 }
 .shutdown-button {
@@ -10108,12 +9328,6 @@ ul#new-menu {
   -moz-osx-font-smoothing: grayscale;
   width: 20px;
 }
-.dirty-indicator.fa-pull-left {
-  margin-right: .3em;
-}
-.dirty-indicator.fa-pull-right {
-  margin-left: .3em;
-}
 .dirty-indicator.pull-left {
   margin-right: .3em;
 }
@@ -10128,12 +9342,6 @@ ul#new-menu {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   width: 20px;
-}
-.dirty-indicator-dirty.fa-pull-left {
-  margin-right: .3em;
-}
-.dirty-indicator-dirty.fa-pull-right {
-  margin-left: .3em;
 }
 .dirty-indicator-dirty.pull-left {
   margin-right: .3em;
@@ -10150,12 +9358,6 @@ ul#new-menu {
   -moz-osx-font-smoothing: grayscale;
   width: 20px;
 }
-.dirty-indicator-clean.fa-pull-left {
-  margin-right: .3em;
-}
-.dirty-indicator-clean.fa-pull-right {
-  margin-left: .3em;
-}
 .dirty-indicator-clean.pull-left {
   margin-right: .3em;
 }
@@ -10170,12 +9372,6 @@ ul#new-menu {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   content: "\f00c";
-}
-.dirty-indicator-clean:before.fa-pull-left {
-  margin-right: .3em;
-}
-.dirty-indicator-clean:before.fa-pull-right {
-  margin-left: .3em;
 }
 .dirty-indicator-clean:before.pull-left {
   margin-right: .3em;
@@ -10221,132 +9417,14 @@ ul#new-menu {
     box-shadow: 0px 0px 12px 1px rgba(87, 87, 87, 0.2);
   }
 }
-.CodeMirror-dialog {
-  background-color: #fff;
-}
 /*!
 *
 * IPython notebook
 *
 */
-/* CSS font colors for translated ANSI escape sequences */
-/* The color values are a mix of
-   http://www.xcolors.net/dl/baskerville-ivorylight and
-   http://www.xcolors.net/dl/euphrasia */
-.ansi-black-fg {
-  color: #3E424D;
-}
-.ansi-black-bg {
-  background-color: #3E424D;
-}
-.ansi-black-intense-fg {
-  color: #282C36;
-}
-.ansi-black-intense-bg {
-  background-color: #282C36;
-}
-.ansi-red-fg {
-  color: #E75C58;
-}
-.ansi-red-bg {
-  background-color: #E75C58;
-}
-.ansi-red-intense-fg {
-  color: #B22B31;
-}
-.ansi-red-intense-bg {
-  background-color: #B22B31;
-}
-.ansi-green-fg {
-  color: #00A250;
-}
-.ansi-green-bg {
-  background-color: #00A250;
-}
-.ansi-green-intense-fg {
-  color: #007427;
-}
-.ansi-green-intense-bg {
-  background-color: #007427;
-}
-.ansi-yellow-fg {
-  color: #DDB62B;
-}
-.ansi-yellow-bg {
-  background-color: #DDB62B;
-}
-.ansi-yellow-intense-fg {
-  color: #B27D12;
-}
-.ansi-yellow-intense-bg {
-  background-color: #B27D12;
-}
-.ansi-blue-fg {
-  color: #208FFB;
-}
-.ansi-blue-bg {
-  background-color: #208FFB;
-}
-.ansi-blue-intense-fg {
-  color: #0065CA;
-}
-.ansi-blue-intense-bg {
-  background-color: #0065CA;
-}
-.ansi-magenta-fg {
-  color: #D160C4;
-}
-.ansi-magenta-bg {
-  background-color: #D160C4;
-}
-.ansi-magenta-intense-fg {
-  color: #A03196;
-}
-.ansi-magenta-intense-bg {
-  background-color: #A03196;
-}
-.ansi-cyan-fg {
-  color: #60C6C8;
-}
-.ansi-cyan-bg {
-  background-color: #60C6C8;
-}
-.ansi-cyan-intense-fg {
-  color: #258F8F;
-}
-.ansi-cyan-intense-bg {
-  background-color: #258F8F;
-}
-.ansi-white-fg {
-  color: #C5C1B4;
-}
-.ansi-white-bg {
-  background-color: #C5C1B4;
-}
-.ansi-white-intense-fg {
-  color: #A1A6B2;
-}
-.ansi-white-intense-bg {
-  background-color: #A1A6B2;
-}
-.ansi-default-inverse-fg {
-  color: #FFFFFF;
-}
-.ansi-default-inverse-bg {
-  background-color: #000000;
-}
-.ansi-bold {
-  font-weight: bold;
-}
-.ansi-underline {
-  text-decoration: underline;
-}
-/* The following styles are deprecated an will be removed in a future version */
+/* CSS font colors for translated ANSI colors. */
 .ansibold {
   font-weight: bold;
-}
-.ansi-inverse {
-  outline: 0.5px dotted;
 }
 /* use dark versions for foreground, to improve visibility */
 .ansiblack {
@@ -10425,20 +9503,12 @@ div.cell {
   /* This acts as a spacer between cells, that is outside the border */
   margin: 0px;
   outline: none;
-  position: relative;
-  overflow: visible;
-}
-div.cell:before {
-  position: absolute;
-  display: block;
-  top: -1px;
-  left: -1px;
-  width: 5px;
-  height: calc(100% +  2px);
-  content: '';
-  background: transparent;
+  border-left-width: 1px;
+  padding-left: 5px;
+  background: linear-gradient(to right, transparent -40px, transparent 1px, transparent 1px, transparent 100%);
 }
 div.cell.jupyter-soft-selected {
+  border-left-color: #90CAF9;
   border-left-color: #E3F2FD;
   border-left-width: 1px;
   padding-left: 5px;
@@ -10451,39 +9521,27 @@ div.cell.jupyter-soft-selected {
     border-color: transparent;
   }
 }
-div.cell.selected,
-div.cell.selected.jupyter-soft-selected {
+div.cell.selected {
   border-color: #ababab;
-}
-div.cell.selected:before,
-div.cell.selected.jupyter-soft-selected:before {
-  position: absolute;
-  display: block;
-  top: -1px;
-  left: -1px;
-  width: 5px;
-  height: calc(100% +  2px);
-  content: '';
-  background: #42A5F5;
+  border-left-width: 0px;
+  padding-left: 6px;
+  background: linear-gradient(to right, #42A5F5 -40px, #42A5F5 5px, transparent 5px, transparent 100%);
 }
 @media print {
-  div.cell.selected,
-  div.cell.selected.jupyter-soft-selected {
+  div.cell.selected {
     border-color: transparent;
   }
 }
+div.cell.selected.jupyter-soft-selected {
+  border-left-width: 0;
+  padding-left: 6px;
+  background: linear-gradient(to right, #42A5F5 -40px, #42A5F5 7px, #E3F2FD 7px, #E3F2FD 100%);
+}
 .edit_mode div.cell.selected {
   border-color: #66BB6A;
-}
-.edit_mode div.cell.selected:before {
-  position: absolute;
-  display: block;
-  top: -1px;
-  left: -1px;
-  width: 5px;
-  height: calc(100% +  2px);
-  content: '';
-  background: #66BB6A;
+  border-left-width: 0px;
+  padding-left: 6px;
+  background: linear-gradient(to right, #66BB6A -40px, #66BB6A 5px, transparent 5px, transparent 100%);
 }
 @media print {
   .edit_mode div.cell.selected {
@@ -10679,9 +9737,7 @@ div.input_area > div.highlight > pre {
 .CodeMirror-lines {
   /* In CM2, this used to be 0.4em, but in CM3 it went to 4px. We need the em value because */
   /* we have set a different line-height and want this to scale with that. */
-  /* Note that this should set vertical padding only, since CodeMirror assumes
-       that horizontal padding will be set on CodeMirror pre */
-  padding: 0.4em 0;
+  padding: 0.4em;
 }
 .CodeMirror-linenumber {
   padding: 0 8px 0 4px;
@@ -10691,24 +9747,11 @@ div.input_area > div.highlight > pre {
   border-top-left-radius: 2px;
 }
 .CodeMirror pre {
-  /* In CM3 this went to 4px from 0 in CM2. This sets horizontal padding only,
-    use .CodeMirror-lines for vertical */
-  padding: 0 0.4em;
+  /* In CM3 this went to 4px from 0 in CM2. We need the 0 value because of how we size */
+  /* .CodeMirror-lines */
+  padding: 0;
   border: 0;
   border-radius: 0;
-}
-.CodeMirror-cursor {
-  border-left: 1.4px solid black;
-}
-@media screen and (min-width: 2138px) and (max-width: 4319px) {
-  .CodeMirror-cursor {
-    border-left: 2px solid black;
-  }
-}
-@media screen and (min-width: 4320px) {
-  .CodeMirror-cursor {
-    border-left: 4px solid black;
-  }
 }
 /*
 
@@ -10962,9 +10005,6 @@ div.output_area img.unconfined,
 div.output_area svg.unconfined {
   max-width: none;
 }
-div.output_area .mglyph > img {
-  max-width: none;
-}
 /* This is needed to protect the pre formating from global settings such
    as that of bootstrap */
 .output {
@@ -11003,7 +10043,7 @@ div.output_area .mglyph > img {
 }
 div.output_area pre {
   margin: 0;
-  padding: 1px 0 1px 0;
+  padding: 0;
   border: 0;
   vertical-align: baseline;
   color: black;
@@ -11163,35 +10203,39 @@ div.output_unrecognized a:hover {
 .rendered_html h6:first-child {
   margin-top: 1em;
 }
-.rendered_html ul:not(.list-inline),
-.rendered_html ol:not(.list-inline) {
-  padding-left: 2em;
-}
 .rendered_html ul {
   list-style: disc;
+  margin: 0em 2em;
+  padding-left: 0px;
 }
 .rendered_html ul ul {
   list-style: square;
-  margin-top: 0;
+  margin: 0em 2em;
 }
 .rendered_html ul ul ul {
   list-style: circle;
+  margin: 0em 2em;
 }
 .rendered_html ol {
   list-style: decimal;
+  margin: 0em 2em;
+  padding-left: 0px;
 }
 .rendered_html ol ol {
   list-style: upper-alpha;
-  margin-top: 0;
+  margin: 0em 2em;
 }
 .rendered_html ol ol ol {
   list-style: lower-alpha;
+  margin: 0em 2em;
 }
 .rendered_html ol ol ol ol {
   list-style: lower-roman;
+  margin: 0em 2em;
 }
 .rendered_html ol ol ol ol ol {
   list-style: decimal;
+  margin: 0em 2em;
 }
 .rendered_html * + ul {
   margin-top: 1em;
@@ -11205,23 +10249,14 @@ div.output_unrecognized a:hover {
 }
 .rendered_html pre {
   margin: 1em 2em;
-  padding: 0px;
-  background-color: #fff;
-}
-.rendered_html code {
-  background-color: #eff0f1;
-}
-.rendered_html p code {
-  padding: 1px 5px;
-}
-.rendered_html pre code {
-  background-color: #fff;
 }
 .rendered_html pre,
 .rendered_html code {
   border: 0;
+  background-color: #fff;
   color: #000;
   font-size: 100%;
+  padding: 0px;
 }
 .rendered_html blockquote {
   margin: 1em 2em;
@@ -11229,36 +10264,24 @@ div.output_unrecognized a:hover {
 .rendered_html table {
   margin-left: auto;
   margin-right: auto;
-  border: none;
+  border: 1px solid black;
   border-collapse: collapse;
-  border-spacing: 0;
-  color: black;
-  font-size: 12px;
-  table-layout: fixed;
-}
-.rendered_html thead {
-  border-bottom: 1px solid black;
-  vertical-align: bottom;
 }
 .rendered_html tr,
 .rendered_html th,
 .rendered_html td {
-  text-align: right;
+  border: 1px solid black;
+  border-collapse: collapse;
+  margin: 1em 2em;
+}
+.rendered_html td,
+.rendered_html th {
+  text-align: left;
   vertical-align: middle;
-  padding: 0.5em 0.5em;
-  line-height: normal;
-  white-space: normal;
-  max-width: none;
-  border: none;
+  padding: 4px;
 }
 .rendered_html th {
   font-weight: bold;
-}
-.rendered_html tbody tr:nth-child(odd) {
-  background: #f5f5f5;
-}
-.rendered_html tbody tr:hover {
-  background: rgba(66, 165, 245, 0.2);
 }
 .rendered_html * + table {
   margin-top: 1em;
@@ -11285,15 +10308,6 @@ div.output_unrecognized a:hover {
 .rendered_html img.unconfined,
 .rendered_html svg.unconfined {
   max-width: none;
-}
-.rendered_html .alert {
-  margin-bottom: initial;
-}
-.rendered_html * + .alert {
-  margin-top: 1em;
-}
-[dir="rtl"] .rendered_html p {
-  text-align: right;
 }
 div.text_cell {
   /* Old browsers */
@@ -11348,17 +10362,8 @@ h6:hover .anchor-link {
   overflow-x: auto;
   overflow-y: hidden;
 }
-.text_cell.rendered .rendered_html tr,
-.text_cell.rendered .rendered_html th,
-.text_cell.rendered .rendered_html td {
-  max-width: none;
-}
 .text_cell.unrendered .text_cell_render {
   display: none;
-}
-.text_cell .dropzone .input_area {
-  border: 2px dashed #bababa;
-  margin: -1px;
 }
 .cm-header-1,
 .cm-header-2,
@@ -11495,28 +10500,6 @@ kbd {
   padding-top: 1px;
   padding-bottom: 1px;
 }
-.jupyter-keybindings {
-  padding: 1px;
-  line-height: 24px;
-  border-bottom: 1px solid gray;
-}
-.jupyter-keybindings input {
-  margin: 0;
-  padding: 0;
-  border: none;
-}
-.jupyter-keybindings i {
-  padding: 6px;
-}
-.well code {
-  background-color: #ffffff;
-  border-color: #ababab;
-  border-width: 1px;
-  border-style: solid;
-  padding: 2px;
-  padding-top: 1px;
-  padding-bottom: 1px;
-}
 /* CSS for the cell toolbar */
 .celltoolbar {
   border: thin solid #CFCFCF;
@@ -11649,152 +10632,6 @@ select[multiple].celltoolbar select {
   margin-left: 5px;
   margin-right: 5px;
 }
-.tags_button_container {
-  width: 100%;
-  display: flex;
-}
-.tag-container {
-  display: flex;
-  flex-direction: row;
-  flex-grow: 1;
-  overflow: hidden;
-  position: relative;
-}
-.tag-container > * {
-  margin: 0 4px;
-}
-.remove-tag-btn {
-  margin-left: 4px;
-}
-.tags-input {
-  display: flex;
-}
-.cell-tag:last-child:after {
-  content: "";
-  position: absolute;
-  right: 0;
-  width: 40px;
-  height: 100%;
-  /* Fade to background color of cell toolbar */
-  background: linear-gradient(to right, rgba(0, 0, 0, 0), #EEE);
-}
-.tags-input > * {
-  margin-left: 4px;
-}
-.cell-tag,
-.tags-input input,
-.tags-input button {
-  display: block;
-  width: 100%;
-  height: 32px;
-  padding: 6px 12px;
-  font-size: 13px;
-  line-height: 1.42857143;
-  color: #555555;
-  background-color: #fff;
-  background-image: none;
-  border: 1px solid #ccc;
-  border-radius: 2px;
-  -webkit-box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075);
-  box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075);
-  -webkit-transition: border-color ease-in-out .15s, box-shadow ease-in-out .15s;
-  -o-transition: border-color ease-in-out .15s, box-shadow ease-in-out .15s;
-  transition: border-color ease-in-out .15s, box-shadow ease-in-out .15s;
-  height: 30px;
-  padding: 5px 10px;
-  font-size: 12px;
-  line-height: 1.5;
-  border-radius: 1px;
-  box-shadow: none;
-  width: inherit;
-  font-size: inherit;
-  height: 22px;
-  line-height: 22px;
-  padding: 0px 4px;
-  display: inline-block;
-}
-.cell-tag:focus,
-.tags-input input:focus,
-.tags-input button:focus {
-  border-color: #66afe9;
-  outline: 0;
-  -webkit-box-shadow: inset 0 1px 1px rgba(0,0,0,.075), 0 0 8px rgba(102, 175, 233, 0.6);
-  box-shadow: inset 0 1px 1px rgba(0,0,0,.075), 0 0 8px rgba(102, 175, 233, 0.6);
-}
-.cell-tag::-moz-placeholder,
-.tags-input input::-moz-placeholder,
-.tags-input button::-moz-placeholder {
-  color: #999;
-  opacity: 1;
-}
-.cell-tag:-ms-input-placeholder,
-.tags-input input:-ms-input-placeholder,
-.tags-input button:-ms-input-placeholder {
-  color: #999;
-}
-.cell-tag::-webkit-input-placeholder,
-.tags-input input::-webkit-input-placeholder,
-.tags-input button::-webkit-input-placeholder {
-  color: #999;
-}
-.cell-tag::-ms-expand,
-.tags-input input::-ms-expand,
-.tags-input button::-ms-expand {
-  border: 0;
-  background-color: transparent;
-}
-.cell-tag[disabled],
-.tags-input input[disabled],
-.tags-input button[disabled],
-.cell-tag[readonly],
-.tags-input input[readonly],
-.tags-input button[readonly],
-fieldset[disabled] .cell-tag,
-fieldset[disabled] .tags-input input,
-fieldset[disabled] .tags-input button {
-  background-color: #eeeeee;
-  opacity: 1;
-}
-.cell-tag[disabled],
-.tags-input input[disabled],
-.tags-input button[disabled],
-fieldset[disabled] .cell-tag,
-fieldset[disabled] .tags-input input,
-fieldset[disabled] .tags-input button {
-  cursor: not-allowed;
-}
-textarea.cell-tag,
-textarea.tags-input input,
-textarea.tags-input button {
-  height: auto;
-}
-select.cell-tag,
-select.tags-input input,
-select.tags-input button {
-  height: 30px;
-  line-height: 30px;
-}
-textarea.cell-tag,
-textarea.tags-input input,
-textarea.tags-input button,
-select[multiple].cell-tag,
-select[multiple].tags-input input,
-select[multiple].tags-input button {
-  height: auto;
-}
-.cell-tag,
-.tags-input button {
-  padding: 0px 4px;
-}
-.cell-tag {
-  background-color: #fff;
-  white-space: nowrap;
-}
-.tags-input input[type=text]:focus {
-  outline: none;
-  box-shadow: none;
-  border-color: #ccc;
-}
 .completions {
   position: absolute;
   z-index: 110;
@@ -11820,28 +10657,16 @@ select[multiple].tags-input button {
 .completions select option.context {
   color: #286090;
 }
+#kernel_logo_widget {
+  float: right !important;
+  float: right;
+}
 #kernel_logo_widget .current_kernel_logo {
   display: none;
   margin-top: -1px;
   margin-bottom: -1px;
   width: 32px;
   height: 32px;
-}
-[dir="rtl"] #kernel_logo_widget {
-  float: left !important;
-  float: left;
-}
-.modal .modal-body .move-path {
-  display: flex;
-  flex-direction: row;
-  justify-content: space;
-  align-items: center;
-}
-.modal .modal-body .move-path .server-root {
-  padding-right: 20px;
-}
-.modal .modal-body .move-path .path-input {
-  flex: 1;
 }
 #menubar {
   box-sizing: border-box;
@@ -11863,41 +10688,11 @@ select[multiple].tags-input button {
 #menubar .navbar-collapse {
   clear: left;
 }
-[dir="rtl"] #menubar .navbar-toggle {
-  float: right;
-}
-[dir="rtl"] #menubar .navbar-collapse {
-  clear: right;
-}
-[dir="rtl"] #menubar .navbar-nav {
-  float: right;
-}
-[dir="rtl"] #menubar .nav {
-  padding-right: 0px;
-}
-[dir="rtl"] #menubar .navbar-nav > li {
-  float: right;
-}
-[dir="rtl"] #menubar .navbar-right {
-  float: left !important;
-}
-[dir="rtl"] ul.dropdown-menu {
-  text-align: right;
-  left: auto;
-}
-[dir="rtl"] ul#new-menu.dropdown-menu {
-  right: auto;
-  left: 0;
-}
 .nav-wrapper {
   border-bottom: 1px solid #e7e7e7;
 }
 i.menu-icon {
   padding-top: 4px;
-}
-[dir="rtl"] i.menu-icon.pull-right {
-  float: left !important;
-  float: left;
 }
 ul#help_menu li a {
   overflow: hidden;
@@ -11905,17 +10700,6 @@ ul#help_menu li a {
 }
 ul#help_menu li a i {
   margin-right: -1.2em;
-}
-[dir="rtl"] ul#help_menu li a {
-  padding-left: 2.2em;
-}
-[dir="rtl"] ul#help_menu li a i {
-  margin-right: 0;
-  margin-left: -1.2em;
-}
-[dir="rtl"] ul#help_menu li a i.pull-right {
-  float: left !important;
-  float: left;
 }
 .dropdown-submenu {
   position: relative;
@@ -11925,10 +10709,6 @@ ul#help_menu li a i {
   left: 100%;
   margin-top: -6px;
   margin-left: -1px;
-}
-[dir="rtl"] .dropdown-submenu > .dropdown-menu {
-  right: 100%;
-  margin-right: -1px;
 }
 .dropdown-submenu:hover > .dropdown-menu {
   display: block;
@@ -11947,23 +10727,11 @@ ul#help_menu li a i {
   margin-top: 2px;
   margin-right: -10px;
 }
-.dropdown-submenu > a:after.fa-pull-left {
-  margin-right: .3em;
-}
-.dropdown-submenu > a:after.fa-pull-right {
-  margin-left: .3em;
-}
 .dropdown-submenu > a:after.pull-left {
   margin-right: .3em;
 }
 .dropdown-submenu > a:after.pull-right {
   margin-left: .3em;
-}
-[dir="rtl"] .dropdown-submenu > a:after {
-  float: left;
-  content: "\f0d9";
-  margin-right: 0;
-  margin-left: -10px;
 }
 .dropdown-submenu:hover > a:after {
   color: #262626;
@@ -11980,10 +10748,6 @@ ul#help_menu li a i {
   float: right;
   z-index: 10;
 }
-[dir="rtl"] #notification_area {
-  float: left !important;
-  float: left;
-}
 .indicator_area {
   float: right !important;
   float: right;
@@ -11994,10 +10758,6 @@ ul#help_menu li a i {
   z-index: 10;
   text-align: center;
   width: auto;
-}
-[dir="rtl"] .indicator_area {
-  float: left !important;
-  float: left;
 }
 #kernel_indicator {
   float: right !important;
@@ -12015,12 +10775,6 @@ ul#help_menu li a i {
   padding-left: 5px;
   padding-right: 5px;
 }
-[dir="rtl"] #kernel_indicator {
-  float: left !important;
-  float: left;
-  border-left: 0;
-  border-right: 1px solid;
-}
 #modal_indicator {
   float: right !important;
   float: right;
@@ -12031,10 +10785,6 @@ ul#help_menu li a i {
   z-index: 10;
   text-align: center;
   width: auto;
-}
-[dir="rtl"] #modal_indicator {
-  float: left !important;
-  float: left;
 }
 #readonly-indicator {
   float: right !important;
@@ -12065,12 +10815,6 @@ ul#help_menu li a i {
   -moz-osx-font-smoothing: grayscale;
   content: "\f040";
 }
-.edit_mode .modal_indicator:before.fa-pull-left {
-  margin-right: .3em;
-}
-.edit_mode .modal_indicator:before.fa-pull-right {
-  margin-left: .3em;
-}
 .edit_mode .modal_indicator:before.pull-left {
   margin-right: .3em;
 }
@@ -12085,12 +10829,6 @@ ul#help_menu li a i {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   content: ' ';
-}
-.command_mode .modal_indicator:before.fa-pull-left {
-  margin-right: .3em;
-}
-.command_mode .modal_indicator:before.fa-pull-right {
-  margin-left: .3em;
 }
 .command_mode .modal_indicator:before.pull-left {
   margin-right: .3em;
@@ -12107,12 +10845,6 @@ ul#help_menu li a i {
   -moz-osx-font-smoothing: grayscale;
   content: "\f10c";
 }
-.kernel_idle_icon:before.fa-pull-left {
-  margin-right: .3em;
-}
-.kernel_idle_icon:before.fa-pull-right {
-  margin-left: .3em;
-}
 .kernel_idle_icon:before.pull-left {
   margin-right: .3em;
 }
@@ -12127,12 +10859,6 @@ ul#help_menu li a i {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   content: "\f111";
-}
-.kernel_busy_icon:before.fa-pull-left {
-  margin-right: .3em;
-}
-.kernel_busy_icon:before.fa-pull-right {
-  margin-left: .3em;
 }
 .kernel_busy_icon:before.pull-left {
   margin-right: .3em;
@@ -12149,12 +10875,6 @@ ul#help_menu li a i {
   -moz-osx-font-smoothing: grayscale;
   content: "\f1e2";
 }
-.kernel_dead_icon:before.fa-pull-left {
-  margin-right: .3em;
-}
-.kernel_dead_icon:before.fa-pull-right {
-  margin-left: .3em;
-}
 .kernel_dead_icon:before.pull-left {
   margin-right: .3em;
 }
@@ -12169,12 +10889,6 @@ ul#help_menu li a i {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   content: "\f127";
-}
-.kernel_disconnected_icon:before.fa-pull-left {
-  margin-right: .3em;
-}
-.kernel_disconnected_icon:before.fa-pull-right {
-  margin-left: .3em;
 }
 .kernel_disconnected_icon:before.pull-left {
   margin-right: .3em;
@@ -12565,46 +11279,27 @@ div#pager .ui-resizable-handle::after {
   flex: 1;
 }
 span.save_widget {
-  height: 30px;
-  margin-top: 4px;
-  display: flex;
-  justify-content: flex-start;
-  align-items: baseline;
-  width: 50%;
-  flex: 1;
+  margin-top: 6px;
 }
 span.save_widget span.filename {
-  height: 100%;
+  height: 1em;
   line-height: 1em;
+  padding: 3px;
   margin-left: 16px;
   border: none;
   font-size: 146.5%;
-  text-overflow: ellipsis;
-  overflow: hidden;
-  white-space: nowrap;
   border-radius: 2px;
 }
 span.save_widget span.filename:hover {
   background-color: #e6e6e6;
 }
-[dir="rtl"] span.save_widget.pull-left {
-  float: right !important;
-  float: right;
-}
-[dir="rtl"] span.save_widget span.filename {
-  margin-left: 0;
-  margin-right: 16px;
-}
 span.checkpoint_status,
 span.autosave_status {
   font-size: small;
-  white-space: nowrap;
-  padding: 0 5px;
 }
 @media (max-width: 767px) {
   span.save_widget {
     font-size: small;
-    padding: 0 0 0 5px;
   }
   span.checkpoint_status,
   span.autosave_status {
@@ -12648,9 +11343,6 @@ span.autosave_status {
   margin-top: 0px;
   margin-left: 5px;
 }
-.toolbar-btn-label {
-  margin-left: 6px;
-}
 #maintoolbar {
   margin-bottom: -3px;
   margin-top: -8px;
@@ -12670,10 +11362,6 @@ span.autosave_status {
 }
 .select-xs {
   height: 24px;
-}
-[dir="rtl"] .btn-group > .btn,
-.btn-group-vertical > .btn {
-  float: right;
 }
 .pulse,
 .dropdown-menu > li > a.pulse,
@@ -12824,10 +11512,6 @@ ul.typeahead-list i {
   margin-left: -10px;
   width: 18px;
 }
-[dir="rtl"] ul.typeahead-list i {
-  margin-left: 0;
-  margin-right: -10px;
-}
 ul.typeahead-list {
   max-height: 80vh;
   overflow: auto;
@@ -12836,13 +11520,6 @@ ul.typeahead-list > li > a {
   /** Firefox bug **/
   /* see https://github.com/jupyter/notebook/issues/559 */
   white-space: normal;
-}
-ul.typeahead-list  > li > a.pull-right {
-  float: left !important;
-  float: left;
-}
-[dir="rtl"] .typeahead-list {
-  text-align: right;
 }
 .cmd-palette .modal-body {
   padding: 7px;
@@ -12854,19 +11531,10 @@ ul.typeahead-list  > li > a.pull-right {
   outline: none;
 }
 .no-shortcut {
-  min-width: 20px;
-  color: transparent;
-}
-[dir="rtl"] .no-shortcut.pull-right {
-  float: left !important;
-  float: left;
-}
-[dir="rtl"] .command-shortcut.pull-right {
-  float: left !important;
-  float: left;
+  display: none;
 }
 .command-shortcut:before {
-  content: "(command mode)";
+  content: "(command)";
   padding-right: 3px;
   color: #777777;
 }
@@ -12875,10 +11543,6 @@ ul.typeahead-list  > li > a.pull-right {
   padding-right: 3px;
   color: #777777;
 }
-[dir="rtl"] .edit-shortcut.pull-right {
-  float: left !important;
-  float: left;
-}
 #find-and-replace #replace-preview .match,
 #find-and-replace #replace-preview .insert {
   background-color: #BBDEFB;
@@ -12886,12 +11550,6 @@ ul.typeahead-list  > li > a.pull-right {
   border-style: solid;
   border-width: 1px;
   border-radius: 0px;
-}
-[dir="ltr"] #find-and-replace .input-group-btn + .form-control {
-  border-left: none;
-}
-[dir="rtl"] #find-and-replace .input-group-btn + .form-control {
-  border-right: none;
 }
 #find-and-replace #replace-preview .replace .match {
   background-color: #FFCDD2;
@@ -13114,14 +11772,16 @@ div#notebook {
     <div class="container" id="notebook-container">
 
 <div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
-</div><div class="inner_cell">
+</div>
+<div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
 <h1 id="What-is-the-most-sustainable-way-to-generate-electricity?-A-comparison-of-ecoinvent-datasets.">What is the most sustainable way to generate electricity? A comparison of ecoinvent datasets.<a class="anchor-link" href="#What-is-the-most-sustainable-way-to-generate-electricity?-A-comparison-of-ecoinvent-datasets.">&#182;</a></h1>
 </div>
 </div>
 </div>
 <div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
-</div><div class="inner_cell">
+</div>
+<div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
 <p><h1>Table of Contents<span class="tocSkip"></span></h1></p>
 <div class="toc"><ul class="toc-item"><li><span><a href="#Introduction" data-toc-modified-id="Introduction-1"><span class="toc-item-num">1&nbsp;&nbsp;</span>Introduction</a></span></li><li><span><a href="#Calculation" data-toc-modified-id="Calculation-2"><span class="toc-item-num">2&nbsp;&nbsp;</span>Calculation</a></span><ul class="toc-item"><li><span><a href="#ILCD-scores" data-toc-modified-id="ILCD-scores-2.1"><span class="toc-item-num">2.1&nbsp;&nbsp;</span>ILCD scores</a></span></li><li><span><a href="#Sustainability-Index" data-toc-modified-id="Sustainability-Index-2.2"><span class="toc-item-num">2.2&nbsp;&nbsp;</span>Sustainability Index</a></span><ul class="toc-item"><li><span><a href="#Normalization" data-toc-modified-id="Normalization-2.2.1"><span class="toc-item-num">2.2.1&nbsp;&nbsp;</span>Normalization</a></span></li><li><span><a href="#Weighing-and-aggregation" data-toc-modified-id="Weighing-and-aggregation-2.2.2"><span class="toc-item-num">2.2.2&nbsp;&nbsp;</span>Weighing and aggregation</a></span></li></ul></li><li><span><a href="#Export" data-toc-modified-id="Export-2.3"><span class="toc-item-num">2.3&nbsp;&nbsp;</span>Export</a></span></li><li><span><a href="#Visualization" data-toc-modified-id="Visualization-2.4"><span class="toc-item-num">2.4&nbsp;&nbsp;</span>Visualization</a></span></li></ul></li><li><span><a href="#Discussion" data-toc-modified-id="Discussion-3"><span class="toc-item-num">3&nbsp;&nbsp;</span>Discussion</a></span></li></ul></div>
@@ -13129,7 +11789,8 @@ div#notebook {
 </div>
 </div>
 <div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
-</div><div class="inner_cell">
+</div>
+<div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
 <h2 id="Introduction">Introduction<a class="anchor-link" href="#Introduction">&#182;</a></h2><p>Which electricity generation technology is the most sustainable one? Is it photovoltaic panels on house roofs? Is it off-shore wind parks? Is it nuclear pressure water reactors?! The answer will depend on several aspects.</p>
 <p>First of all, it depends on the models used to describe the different generation technologies. Here, I will use models and parameters as supplied by ecoinvent 3.5, allocation at the point of substitution system model (<a href="https://www.ecoinvent.org/">https://www.ecoinvent.org/</a>).</p>
@@ -13139,7 +11800,8 @@ div#notebook {
 </div>
 </div>
 <div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
-</div><div class="inner_cell">
+</div>
+<div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
 <h2 id="Calculation">Calculation<a class="anchor-link" href="#Calculation">&#182;</a></h2><h3 id="ILCD-scores">ILCD scores<a class="anchor-link" href="#ILCD-scores">&#182;</a></h3><p>I use the brightway2 package for python for impact calculations (<a href="https://brightwaylca.org/">https://brightwaylca.org/</a>). Brightway allows to</p>
 <ul>
@@ -13162,13 +11824,14 @@ div#notebook {
 <span class="kn">import</span> <span class="nn">xlsxwriter</span>
 </pre></div>
 
-    </div>
+</div>
 </div>
 </div>
 
 </div>
 <div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
-</div><div class="inner_cell">
+</div>
+<div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
 <p>I'll skip the setup here. Please refer to the official brightway guide for details on how to import the ecoinvent 3.5 database etc.: <a href="https://nbviewer.jupyter.org/urls/bitbucket.org/cmutel/brightway2/raw/default/notebooks/Getting%20Started%20with%20Brightway2.ipynb">https://nbviewer.jupyter.org/urls/bitbucket.org/cmutel/brightway2/raw/default/notebooks/Getting%20Started%20with%20Brightway2.ipynb</a></p>
 <p>Let's start by getting all electricity production activities in the database.</p>
@@ -13190,7 +11853,7 @@ div#notebook {
 <span class="nb">len</span><span class="p">(</span><span class="n">lActivities</span><span class="p">)</span>
 </pre></div>
 
-    </div>
+</div>
 </div>
 </div>
 
@@ -13200,7 +11863,7 @@ div#notebook {
 
 <div class="output_area">
 
-    <div class="prompt output_prompt">Out[2]:</div>
+<div class="prompt output_prompt">Out[2]:</div>
 
 
 
@@ -13216,7 +11879,8 @@ div#notebook {
 
 </div>
 <div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
-</div><div class="inner_cell">
+</div>
+<div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
 <p>ecoinvent knows 1,488 different activities that produce electricity! Let's go ahead and calculate their impacts.</p>
 <p><strong>Note: Computation of all values may take up to an hour! I reduced the number of activities to the first 5 in the list to make the notebook runable. Feel free to delete the corresponding line to calculate all impacts on your system.</strong></p>
@@ -13254,7 +11918,7 @@ div#notebook {
 <span class="n">df</span><span class="o">.</span><span class="n">head</span><span class="p">()</span>
 </pre></div>
 
-    </div>
+</div>
 </div>
 </div>
 
@@ -13264,7 +11928,7 @@ div#notebook {
 
 <div class="output_area">
 
-    <div class="prompt output_prompt">Out[3]:</div>
+<div class="prompt output_prompt">Out[3]:</div>
 
 
 
@@ -13311,113 +11975,113 @@ div#notebook {
   <tbody>
     <tr>
       <th>0</th>
-      <td>0.000261</td>
-      <td>0.056076</td>
-      <td>0.000127</td>
-      <td>0.056464</td>
-      <td>0.000410</td>
-      <td>0.064045</td>
-      <td>0.000052</td>
-      <td>0.000073</td>
-      <td>0.000666</td>
-      <td>1.576157e-09</td>
-      <td>0.006591</td>
-      <td>1.947787e-08</td>
-      <td>6.316700e-09</td>
-      <td>0.000226</td>
-      <td>3.496668e-09</td>
-      <td>0.080635</td>
-      <td>0.863755</td>
-      <td>0.425983</td>
-      <td>2.470450e-06</td>
+      <td>0.000053</td>
+      <td>0.588143</td>
+      <td>0.000015</td>
+      <td>0.588211</td>
+      <td>0.000645</td>
+      <td>0.217072</td>
+      <td>0.000008</td>
+      <td>0.000180</td>
+      <td>0.001934</td>
+      <td>1.142199e-09</td>
+      <td>0.001369</td>
+      <td>1.202924e-08</td>
+      <td>5.099300e-08</td>
+      <td>0.000718</td>
+      <td>1.659245e-09</td>
+      <td>0.044559</td>
+      <td>9.281378</td>
+      <td>0.170848</td>
+      <td>1.040912e-07</td>
     </tr>
     <tr>
       <th>1</th>
-      <td>0.000480</td>
-      <td>0.006484</td>
-      <td>0.000004</td>
-      <td>0.006968</td>
-      <td>0.000028</td>
-      <td>0.006420</td>
-      <td>0.000002</td>
-      <td>0.000008</td>
-      <td>0.000084</td>
-      <td>4.186396e-10</td>
-      <td>0.000408</td>
-      <td>1.001933e-09</td>
-      <td>4.608832e-10</td>
-      <td>0.000024</td>
-      <td>5.214179e-10</td>
-      <td>1.256094</td>
-      <td>0.061470</td>
-      <td>-0.200622</td>
-      <td>2.247062e-08</td>
+      <td>0.000162</td>
+      <td>1.053454</td>
+      <td>0.000078</td>
+      <td>1.053694</td>
+      <td>0.010851</td>
+      <td>0.074229</td>
+      <td>0.000753</td>
+      <td>0.001528</td>
+      <td>0.015533</td>
+      <td>1.561707e-09</td>
+      <td>0.004844</td>
+      <td>4.135861e-08</td>
+      <td>6.808792e-09</td>
+      <td>0.004120</td>
+      <td>1.342487e-08</td>
+      <td>0.077180</td>
+      <td>15.350463</td>
+      <td>2.357585</td>
+      <td>1.142805e-07</td>
     </tr>
     <tr>
       <th>2</th>
-      <td>0.000363</td>
-      <td>0.077958</td>
-      <td>0.000177</td>
-      <td>0.078498</td>
-      <td>0.000570</td>
-      <td>0.089037</td>
-      <td>0.000072</td>
-      <td>0.000101</td>
-      <td>0.000926</td>
-      <td>2.191205e-09</td>
-      <td>0.009163</td>
-      <td>2.707853e-08</td>
-      <td>8.781605e-09</td>
-      <td>0.000315</td>
-      <td>4.861140e-09</td>
-      <td>0.112100</td>
-      <td>1.200809</td>
-      <td>0.592210</td>
-      <td>3.434470e-06</td>
+      <td>0.000026</td>
+      <td>0.012671</td>
+      <td>0.000030</td>
+      <td>0.012726</td>
+      <td>0.000074</td>
+      <td>0.025228</td>
+      <td>0.000009</td>
+      <td>0.000060</td>
+      <td>0.000187</td>
+      <td>5.676048e-10</td>
+      <td>1.184924</td>
+      <td>3.716515e-09</td>
+      <td>5.734082e-08</td>
+      <td>0.000051</td>
+      <td>2.871032e-09</td>
+      <td>0.132819</td>
+      <td>14.255169</td>
+      <td>0.084286</td>
+      <td>5.122173e-08</td>
     </tr>
     <tr>
       <th>3</th>
       <td>0.000363</td>
-      <td>0.077958</td>
+      <td>0.077957</td>
       <td>0.000177</td>
-      <td>0.078498</td>
+      <td>0.078496</td>
       <td>0.000570</td>
-      <td>0.089037</td>
+      <td>0.089036</td>
       <td>0.000072</td>
       <td>0.000101</td>
       <td>0.000926</td>
-      <td>2.191205e-09</td>
+      <td>2.191182e-09</td>
       <td>0.009163</td>
-      <td>2.707853e-08</td>
-      <td>8.781605e-09</td>
+      <td>2.707840e-08</td>
+      <td>8.781046e-09</td>
       <td>0.000315</td>
-      <td>4.861140e-09</td>
+      <td>4.861033e-09</td>
       <td>0.112100</td>
-      <td>1.200809</td>
-      <td>0.592210</td>
-      <td>3.434470e-06</td>
+      <td>1.200793</td>
+      <td>0.592213</td>
+      <td>3.434466e-06</td>
     </tr>
     <tr>
       <th>4</th>
-      <td>0.000019</td>
-      <td>0.013554</td>
-      <td>0.000011</td>
-      <td>0.013585</td>
-      <td>0.000083</td>
-      <td>0.034815</td>
-      <td>0.000010</td>
-      <td>0.000017</td>
-      <td>0.000165</td>
-      <td>2.092410e-09</td>
-      <td>0.000976</td>
-      <td>6.284832e-09</td>
-      <td>1.153203e-09</td>
-      <td>0.000058</td>
-      <td>1.104786e-09</td>
-      <td>0.004953</td>
-      <td>0.190287</td>
-      <td>0.328567</td>
-      <td>3.038103e-07</td>
+      <td>0.000287</td>
+      <td>0.061599</td>
+      <td>0.000140</td>
+      <td>0.062025</td>
+      <td>0.000450</td>
+      <td>0.070353</td>
+      <td>0.000057</td>
+      <td>0.000080</td>
+      <td>0.000732</td>
+      <td>1.731384e-09</td>
+      <td>0.007240</td>
+      <td>2.139614e-08</td>
+      <td>6.938799e-09</td>
+      <td>0.000249</td>
+      <td>3.841037e-09</td>
+      <td>0.088576</td>
+      <td>0.948821</td>
+      <td>0.467936</td>
+      <td>2.713751e-06</td>
     </tr>
   </tbody>
 </table>
@@ -13431,7 +12095,8 @@ div#notebook {
 
 </div>
 <div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
-</div><div class="inner_cell">
+</div>
+<div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
 <p>Numbered indices are not very readable. Let's use metadata about the activities as the index instead:</p>
 
@@ -13461,7 +12126,7 @@ div#notebook {
 <span class="n">df</span><span class="o">.</span><span class="n">head</span><span class="p">()</span>
 </pre></div>
 
-    </div>
+</div>
 </div>
 </div>
 
@@ -13471,7 +12136,7 @@ div#notebook {
 
 <div class="output_area">
 
-    <div class="prompt output_prompt">Out[4]:</div>
+<div class="prompt output_prompt">Out[4]:</div>
 
 
 
@@ -13554,60 +12219,88 @@ div#notebook {
   <tbody>
     <tr>
       <th rowspan="5" valign="top">electricity production</th>
-      <th>photovoltaic</th>
-      <th>3kWp slanted-roof installation</th>
-      <th>multi-Si</th>
-      <th>panel</th>
-      <th>mounted</th>
+      <th>natural gas</th>
+      <th>conventional power plant</th>
+      <th></th>
+      <th></th>
+      <th></th>
       <th>kilowatt hour</th>
-      <th>IN-KA</th>
-      <td>0.000261</td>
-      <td>0.056076</td>
-      <td>0.000127</td>
-      <td>0.056464</td>
-      <td>0.000410</td>
-      <td>0.064045</td>
-      <td>0.000052</td>
-      <td>0.000073</td>
-      <td>0.000666</td>
-      <td>1.576157e-09</td>
-      <td>0.006591</td>
-      <td>1.947787e-08</td>
-      <td>6.316700e-09</td>
-      <td>0.000226</td>
-      <td>3.496668e-09</td>
-      <td>0.080635</td>
-      <td>0.863755</td>
-      <td>0.425983</td>
-      <td>2.470450e-06</td>
+      <th>CN-JS</th>
+      <td>0.000053</td>
+      <td>0.588143</td>
+      <td>0.000015</td>
+      <td>0.588211</td>
+      <td>0.000645</td>
+      <td>0.217072</td>
+      <td>0.000008</td>
+      <td>0.000180</td>
+      <td>0.001934</td>
+      <td>1.142199e-09</td>
+      <td>0.001369</td>
+      <td>1.202924e-08</td>
+      <td>5.099300e-08</td>
+      <td>0.000718</td>
+      <td>1.659245e-09</td>
+      <td>0.044559</td>
+      <td>9.281378</td>
+      <td>0.170848</td>
+      <td>1.040912e-07</td>
     </tr>
     <tr>
-      <th>hydro</th>
-      <th>reservoir</th>
-      <th>alpine region</th>
+      <th>hard coal</th>
+      <th></th>
+      <th></th>
       <th></th>
       <th></th>
       <th>kilowatt hour</th>
-      <th>IN-RJ</th>
-      <td>0.000480</td>
-      <td>0.006484</td>
-      <td>0.000004</td>
-      <td>0.006968</td>
-      <td>0.000028</td>
-      <td>0.006420</td>
-      <td>0.000002</td>
-      <td>0.000008</td>
-      <td>0.000084</td>
-      <td>4.186396e-10</td>
-      <td>0.000408</td>
-      <td>1.001933e-09</td>
-      <td>4.608832e-10</td>
-      <td>0.000024</td>
-      <td>5.214179e-10</td>
-      <td>1.256094</td>
-      <td>0.061470</td>
-      <td>-0.200622</td>
-      <td>2.247062e-08</td>
+      <th>RoW</th>
+      <td>0.000162</td>
+      <td>1.053454</td>
+      <td>0.000078</td>
+      <td>1.053694</td>
+      <td>0.010851</td>
+      <td>0.074229</td>
+      <td>0.000753</td>
+      <td>0.001528</td>
+      <td>0.015533</td>
+      <td>1.561707e-09</td>
+      <td>0.004844</td>
+      <td>4.135861e-08</td>
+      <td>6.808792e-09</td>
+      <td>0.004120</td>
+      <td>1.342487e-08</td>
+      <td>0.077180</td>
+      <td>15.350463</td>
+      <td>2.357585</td>
+      <td>1.142805e-07</td>
+    </tr>
+    <tr>
+      <th>nuclear</th>
+      <th>boiling water reactor</th>
+      <th></th>
+      <th></th>
+      <th></th>
+      <th>kilowatt hour</th>
+      <th>US-NPCC</th>
+      <td>0.000026</td>
+      <td>0.012671</td>
+      <td>0.000030</td>
+      <td>0.012726</td>
+      <td>0.000074</td>
+      <td>0.025228</td>
+      <td>0.000009</td>
+      <td>0.000060</td>
+      <td>0.000187</td>
+      <td>5.676048e-10</td>
+      <td>1.184924</td>
+      <td>3.716515e-09</td>
+      <td>5.734082e-08</td>
+      <td>0.000051</td>
+      <td>2.871032e-09</td>
+      <td>0.132819</td>
+      <td>14.255169</td>
+      <td>0.084286</td>
+      <td>5.122173e-08</td>
     </tr>
     <tr>
       <th rowspan="2" valign="top">photovoltaic</th>
@@ -13616,76 +12309,48 @@ div#notebook {
       <th rowspan="2" valign="top">panel</th>
       <th rowspan="2" valign="top">mounted</th>
       <th rowspan="2" valign="top">kilowatt hour</th>
-      <th>CN-BJ</th>
+      <th>LV</th>
       <td>0.000363</td>
-      <td>0.077958</td>
+      <td>0.077957</td>
       <td>0.000177</td>
-      <td>0.078498</td>
+      <td>0.078496</td>
       <td>0.000570</td>
-      <td>0.089037</td>
+      <td>0.089036</td>
       <td>0.000072</td>
       <td>0.000101</td>
       <td>0.000926</td>
-      <td>2.191205e-09</td>
+      <td>2.191182e-09</td>
       <td>0.009163</td>
-      <td>2.707853e-08</td>
-      <td>8.781605e-09</td>
+      <td>2.707840e-08</td>
+      <td>8.781046e-09</td>
       <td>0.000315</td>
-      <td>4.861140e-09</td>
+      <td>4.861033e-09</td>
       <td>0.112100</td>
-      <td>1.200809</td>
-      <td>0.592210</td>
-      <td>3.434470e-06</td>
+      <td>1.200793</td>
+      <td>0.592213</td>
+      <td>3.434466e-06</td>
     </tr>
     <tr>
-      <th>CN-HB</th>
-      <td>0.000363</td>
-      <td>0.077958</td>
-      <td>0.000177</td>
-      <td>0.078498</td>
-      <td>0.000570</td>
-      <td>0.089037</td>
-      <td>0.000072</td>
-      <td>0.000101</td>
-      <td>0.000926</td>
-      <td>2.191205e-09</td>
-      <td>0.009163</td>
-      <td>2.707853e-08</td>
-      <td>8.781605e-09</td>
-      <td>0.000315</td>
-      <td>4.861140e-09</td>
-      <td>0.112100</td>
-      <td>1.200809</td>
-      <td>0.592210</td>
-      <td>3.434470e-06</td>
-    </tr>
-    <tr>
-      <th>wind</th>
-      <th>1-3MW turbine</th>
-      <th>onshore</th>
-      <th></th>
-      <th></th>
-      <th>kilowatt hour</th>
-      <th>PT</th>
-      <td>0.000019</td>
-      <td>0.013554</td>
-      <td>0.000011</td>
-      <td>0.013585</td>
-      <td>0.000083</td>
-      <td>0.034815</td>
-      <td>0.000010</td>
-      <td>0.000017</td>
-      <td>0.000165</td>
-      <td>2.092410e-09</td>
-      <td>0.000976</td>
-      <td>6.284832e-09</td>
-      <td>1.153203e-09</td>
-      <td>0.000058</td>
-      <td>1.104786e-09</td>
-      <td>0.004953</td>
-      <td>0.190287</td>
-      <td>0.328567</td>
-      <td>3.038103e-07</td>
+      <th>IN-JH</th>
+      <td>0.000287</td>
+      <td>0.061599</td>
+      <td>0.000140</td>
+      <td>0.062025</td>
+      <td>0.000450</td>
+      <td>0.070353</td>
+      <td>0.000057</td>
+      <td>0.000080</td>
+      <td>0.000732</td>
+      <td>1.731384e-09</td>
+      <td>0.007240</td>
+      <td>2.139614e-08</td>
+      <td>6.938799e-09</td>
+      <td>0.000249</td>
+      <td>3.841037e-09</td>
+      <td>0.088576</td>
+      <td>0.948821</td>
+      <td>0.467936</td>
+      <td>2.713751e-06</td>
     </tr>
   </tbody>
 </table>
@@ -13699,7 +12364,8 @@ div#notebook {
 
 </div>
 <div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
-</div><div class="inner_cell">
+</div>
+<div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
 <p>That's it! These are impact scores for all electricity production activities in ecoinvent 3.5. I can use these to answer indicator-specific questions like: Which electricity generation technology has the lowest total global warming potential (GWP 100)?</p>
 
@@ -13714,7 +12380,7 @@ div#notebook {
 <div class=" highlight hl-ipython3"><pre><span></span><span class="n">df</span><span class="p">[(</span><span class="s2">&quot;ILCD 2.0 2018 midpoint&quot;</span><span class="p">,</span> <span class="s2">&quot;climate change&quot;</span><span class="p">,</span> <span class="s2">&quot;climate change total&quot;</span><span class="p">)]</span><span class="o">.</span><span class="n">idxmin</span><span class="p">()</span>
 </pre></div>
 
-    </div>
+</div>
 </div>
 </div>
 
@@ -13724,20 +12390,20 @@ div#notebook {
 
 <div class="output_area">
 
-    <div class="prompt output_prompt">Out[5]:</div>
+<div class="prompt output_prompt">Out[5]:</div>
 
 
 
 
 <div class="output_text output_subarea output_execute_result">
 <pre>(&#39;electricity production&#39;,
- &#39; hydro&#39;,
- &#39; reservoir&#39;,
- &#39; alpine region&#39;,
+ &#39; nuclear&#39;,
+ &#39; boiling water reactor&#39;,
+ &#39; &#39;,
  &#39; &#39;,
  &#39; &#39;,
  &#39;kilowatt hour&#39;,
- &#39;IN-RJ&#39;)</pre>
+ &#39;US-NPCC&#39;)</pre>
 </div>
 
 </div>
@@ -13747,7 +12413,8 @@ div#notebook {
 
 </div>
 <div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
-</div><div class="inner_cell">
+</div>
+<div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
 <p>Or statistical evaluations, like what is the average and standard deviation for the GWP 100 indicator for all electricity generation activities?</p>
 
@@ -13762,7 +12429,7 @@ div#notebook {
 <div class=" highlight hl-ipython3"><pre><span></span><span class="n">df</span><span class="p">[(</span><span class="s2">&quot;ILCD 2.0 2018 midpoint&quot;</span><span class="p">,</span> <span class="s2">&quot;climate change&quot;</span><span class="p">,</span> <span class="s2">&quot;climate change total&quot;</span><span class="p">)]</span><span class="o">.</span><span class="n">describe</span><span class="p">()</span>
 </pre></div>
 
-    </div>
+</div>
 </div>
 </div>
 
@@ -13772,20 +12439,20 @@ div#notebook {
 
 <div class="output_area">
 
-    <div class="prompt output_prompt">Out[6]:</div>
+<div class="prompt output_prompt">Out[6]:</div>
 
 
 
 
 <div class="output_text output_subarea output_execute_result">
 <pre>count    5.000000
-mean     0.046803
-std      0.034615
-min      0.006968
-25%      0.013585
-50%      0.056464
-75%      0.078498
-max      0.078498
+mean     0.359031
+std      0.453299
+min      0.012726
+25%      0.062025
+50%      0.078496
+75%      0.588211
+max      1.053694
 Name: (ILCD 2.0 2018 midpoint, climate change, climate change total), dtype: float64</pre>
 </div>
 
@@ -13796,14 +12463,16 @@ Name: (ILCD 2.0 2018 midpoint, climate change, climate change total), dtype: flo
 
 </div>
 <div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
-</div><div class="inner_cell">
+</div>
+<div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
 <h3 id="Sustainability-Index">Sustainability Index<a class="anchor-link" href="#Sustainability-Index">&#182;</a></h3>
 </div>
 </div>
 </div>
 <div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
-</div><div class="inner_cell">
+</div>
+<div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
 <p>Using the produced data we can rank the electricity generation datasets according to individual impact indicators. However, a single indicator does not give enough information to decide if a technology is sustainable or not. To get a bigger picture, I want to aggregate all indicators into one number. As mentioned in the introduction, there are infinitely many ways to do this. The one chosen here is not more right or wrong than any other way. Feel free to change this part according to your needs!</p>
 
@@ -13811,7 +12480,8 @@ Name: (ILCD 2.0 2018 midpoint, climate change, climate change total), dtype: flo
 </div>
 </div>
 <div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
-</div><div class="inner_cell">
+</div>
+<div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
 <h4 id="Normalization">Normalization<a class="anchor-link" href="#Normalization">&#182;</a></h4><p>For each indicator, I choose the minimum and the maximum value over all activities. I define the minimum as 0 and the maximum as 1. Then I use linear interpolation to project all other values into this [0, 1] range.</p>
 
@@ -13832,7 +12502,7 @@ Name: (ILCD 2.0 2018 midpoint, climate change, climate change total), dtype: flo
 <span class="n">df_normalized</span><span class="o">.</span><span class="n">head</span><span class="p">()</span>
 </pre></div>
 
-    </div>
+</div>
 </div>
 </div>
 
@@ -13842,7 +12512,7 @@ Name: (ILCD 2.0 2018 midpoint, climate change, climate change total), dtype: flo
 
 <div class="output_area">
 
-    <div class="prompt output_prompt">Out[7]:</div>
+<div class="prompt output_prompt">Out[7]:</div>
 
 
 
@@ -13925,58 +12595,86 @@ Name: (ILCD 2.0 2018 midpoint, climate change, climate change total), dtype: flo
   <tbody>
     <tr>
       <th rowspan="5" valign="top">electricity production</th>
-      <th>photovoltaic</th>
-      <th>3kWp slanted-roof installation</th>
-      <th>multi-Si</th>
-      <th>panel</th>
-      <th>mounted</th>
+      <th>natural gas</th>
+      <th>conventional power plant</th>
+      <th></th>
+      <th></th>
+      <th></th>
       <th>kilowatt hour</th>
-      <th>IN-KA</th>
-      <td>0.524225</td>
-      <td>0.693847</td>
-      <td>0.713263</td>
-      <td>0.691966</td>
-      <td>0.704719</td>
-      <td>0.697498</td>
-      <td>0.712362</td>
-      <td>0.696513</td>
-      <td>0.691453</td>
-      <td>0.653018</td>
-      <td>0.706223</td>
-      <td>0.708526</td>
-      <td>0.703763</td>
-      <td>0.696484</td>
-      <td>0.685585</td>
-      <td>0.060491</td>
-      <td>0.704167</td>
-      <td>0.790337</td>
-      <td>0.717462</td>
+      <th>CN-JS</th>
+      <td>0.079120</td>
+      <td>0.552922</td>
+      <td>0.000000</td>
+      <td>0.552836</td>
+      <td>0.052945</td>
+      <td>1.000000</td>
+      <td>0.000000</td>
+      <td>0.081488</td>
+      <td>0.113848</td>
+      <td>0.353906</td>
+      <td>0.000000</td>
+      <td>0.220836</td>
+      <td>0.874380</td>
+      <td>0.163834</td>
+      <td>0.000000</td>
+      <td>0.000000</td>
+      <td>0.578584</td>
+      <td>0.038077</td>
+      <td>0.015627</td>
     </tr>
     <tr>
-      <th>hydro</th>
-      <th>reservoir</th>
-      <th>alpine region</th>
+      <th>hard coal</th>
+      <th></th>
+      <th></th>
       <th></th>
       <th></th>
       <th>kilowatt hour</th>
-      <th>IN-RJ</th>
+      <th>RoW</th>
+      <td>0.402550</td>
+      <td>1.000000</td>
+      <td>0.388987</td>
+      <td>1.000000</td>
+      <td>1.000000</td>
+      <td>0.255419</td>
+      <td>1.000000</td>
+      <td>1.000000</td>
+      <td>1.000000</td>
+      <td>0.612291</td>
+      <td>0.002936</td>
       <td>1.000000</td>
       <td>0.000000</td>
+      <td>1.000000</td>
+      <td>1.000000</td>
+      <td>0.369608</td>
+      <td>1.000000</td>
+      <td>1.000000</td>
+      <td>0.018639</td>
+    </tr>
+    <tr>
+      <th>nuclear</th>
+      <th>boiling water reactor</th>
+      <th></th>
+      <th></th>
+      <th></th>
+      <th>kilowatt hour</th>
+      <th>US-NPCC</th>
+      <td>0.000000</td>
+      <td>0.000000</td>
+      <td>0.087117</td>
       <td>0.000000</td>
       <td>0.000000</td>
       <td>0.000000</td>
-      <td>0.000000</td>
-      <td>0.000000</td>
-      <td>0.000000</td>
-      <td>0.000000</td>
-      <td>0.000000</td>
-      <td>0.000000</td>
-      <td>0.000000</td>
+      <td>0.001290</td>
       <td>0.000000</td>
       <td>0.000000</td>
       <td>0.000000</td>
       <td>1.000000</td>
       <td>0.000000</td>
+      <td>1.000000</td>
+      <td>0.000000</td>
+      <td>0.102994</td>
+      <td>1.000000</td>
+      <td>0.923947</td>
       <td>0.000000</td>
       <td>0.000000</td>
     </tr>
@@ -13987,76 +12685,48 @@ Name: (ILCD 2.0 2018 midpoint, climate change, climate change total), dtype: flo
       <th rowspan="2" valign="top">panel</th>
       <th rowspan="2" valign="top">mounted</th>
       <th rowspan="2" valign="top">kilowatt hour</th>
-      <th>CN-BJ</th>
-      <td>0.744872</td>
+      <th>LV</th>
       <td>1.000000</td>
+      <td>0.062728</td>
       <td>1.000000</td>
+      <td>0.063182</td>
+      <td>0.045976</td>
+      <td>0.332602</td>
+      <td>0.086409</td>
+      <td>0.027954</td>
+      <td>0.048144</td>
       <td>1.000000</td>
-      <td>1.000000</td>
-      <td>1.000000</td>
-      <td>1.000000</td>
-      <td>1.000000</td>
-      <td>1.000000</td>
-      <td>1.000000</td>
-      <td>1.000000</td>
-      <td>1.000000</td>
-      <td>1.000000</td>
-      <td>1.000000</td>
-      <td>1.000000</td>
-      <td>0.085640</td>
-      <td>1.000000</td>
-      <td>1.000000</td>
-      <td>1.000000</td>
-    </tr>
-    <tr>
-      <th>CN-HB</th>
-      <td>0.744872</td>
-      <td>1.000000</td>
-      <td>1.000000</td>
-      <td>1.000000</td>
-      <td>1.000000</td>
-      <td>1.000000</td>
-      <td>1.000000</td>
-      <td>1.000000</td>
-      <td>1.000000</td>
-      <td>1.000000</td>
-      <td>1.000000</td>
-      <td>1.000000</td>
-      <td>1.000000</td>
-      <td>1.000000</td>
-      <td>1.000000</td>
-      <td>0.085640</td>
-      <td>1.000000</td>
-      <td>1.000000</td>
+      <td>0.006586</td>
+      <td>0.620632</td>
+      <td>0.039030</td>
+      <td>0.064746</td>
+      <td>0.272131</td>
+      <td>0.765254</td>
+      <td>0.017496</td>
+      <td>0.223432</td>
       <td>1.000000</td>
     </tr>
     <tr>
-      <th>wind</th>
-      <th>1-3MW turbine</th>
-      <th>onshore</th>
-      <th></th>
-      <th></th>
-      <th>kilowatt hour</th>
-      <th>PT</th>
+      <th>IN-JH</th>
+      <td>0.773791</td>
+      <td>0.047011</td>
+      <td>0.770071</td>
+      <td>0.047359</td>
+      <td>0.034886</td>
+      <td>0.235214</td>
+      <td>0.066049</td>
+      <td>0.013513</td>
+      <td>0.035482</td>
+      <td>0.716799</td>
+      <td>0.004961</td>
+      <td>0.469677</td>
+      <td>0.002573</td>
+      <td>0.048516</td>
+      <td>0.185438</td>
+      <td>0.498725</td>
       <td>0.000000</td>
-      <td>0.098921</td>
-      <td>0.043470</td>
-      <td>0.092498</td>
-      <td>0.100734</td>
-      <td>0.343698</td>
-      <td>0.115057</td>
-      <td>0.098343</td>
-      <td>0.096823</td>
-      <td>0.944264</td>
-      <td>0.064845</td>
-      <td>0.202592</td>
-      <td>0.083204</td>
-      <td>0.119228</td>
-      <td>0.134425</td>
-      <td>0.000000</td>
-      <td>0.113063</td>
-      <td>0.667466</td>
-      <td>0.082456</td>
+      <td>0.168763</td>
+      <td>0.786975</td>
     </tr>
   </tbody>
 </table>
@@ -14070,7 +12740,8 @@ Name: (ILCD 2.0 2018 midpoint, climate change, climate change total), dtype: flo
 
 </div>
 <div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
-</div><div class="inner_cell">
+</div>
+<div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
 <p>The result is a table where all impact scores range between zero and one. Zero means lowest impact with reference to the benchmark (i.e. all ecoinvent 3.5 electricity generation activities). One means highest impact with reference to the benchmark.</p>
 
@@ -14078,14 +12749,16 @@ Name: (ILCD 2.0 2018 midpoint, climate change, climate change total), dtype: flo
 </div>
 </div>
 <div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
-</div><div class="inner_cell">
+</div>
+<div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
 <h4 id="Weighing-and-aggregation">Weighing and aggregation<a class="anchor-link" href="#Weighing-and-aggregation">&#182;</a></h4>
 </div>
 </div>
 </div>
 <div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
-</div><div class="inner_cell">
+</div>
+<div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
 <p>We still have 19 numbers, each of which describes a small part of the big picture "sustainability". I will now boil them down to one number by simply adding them up. I call the resulting number "sustainability index". Let me stress this again: This index is not more right or wrong than any other one. It is <em>one</em> rather arbitrary way to aggregate the individual impact scores.</p>
 <p>The lowest possible number for our index is zero. Zero indicates a technology which achieves the <em>lowest</em> possible (with reference to the benchmark) impact score in all nineteen impact categories. The highest possible index value is nineteen. It indicates a technology which has the <em>highest</em> possible (with reference to the benchmark) impact score in all nineteen impact categories.</p>
@@ -14108,7 +12781,7 @@ Name: (ILCD 2.0 2018 midpoint, climate change, climate change total), dtype: flo
 <span class="n">df_normalized</span><span class="o">.</span><span class="n">head</span><span class="p">()</span>
 </pre></div>
 
-    </div>
+</div>
 </div>
 </div>
 
@@ -14118,7 +12791,7 @@ Name: (ILCD 2.0 2018 midpoint, climate change, climate change total), dtype: flo
 
 <div class="output_area">
 
-    <div class="prompt output_prompt">Out[8]:</div>
+<div class="prompt output_prompt">Out[8]:</div>
 
 
 
@@ -14203,137 +12876,143 @@ Name: (ILCD 2.0 2018 midpoint, climate change, climate change total), dtype: flo
   <tbody>
     <tr>
       <th rowspan="5" valign="top">electricity production</th>
-      <th>hydro</th>
-      <th>reservoir</th>
-      <th>alpine region</th>
+      <th>nuclear</th>
+      <th>boiling water reactor</th>
       <th></th>
-      <th></th>
-      <th>kilowatt hour</th>
-      <th>IN-RJ</th>
-      <td>1.000000</td>
-      <td>0.000000</td>
-      <td>0.000000</td>
-      <td>0.000000</td>
-      <td>0.000000</td>
-      <td>0.000000</td>
-      <td>0.000000</td>
-      <td>0.000000</td>
-      <td>0.000000</td>
-      <td>0.000000</td>
-      <td>0.000000</td>
-      <td>0.000000</td>
-      <td>0.000000</td>
-      <td>0.000000</td>
-      <td>0.000000</td>
-      <td>1.000000</td>
-      <td>0.000000</td>
-      <td>0.000000</td>
-      <td>0.000000</td>
-      <td>2.000000</td>
-    </tr>
-    <tr>
-      <th>wind</th>
-      <th>1-3MW turbine</th>
-      <th>onshore</th>
       <th></th>
       <th></th>
       <th>kilowatt hour</th>
-      <th>PT</th>
+      <th>US-NPCC</th>
       <td>0.000000</td>
-      <td>0.098921</td>
-      <td>0.043470</td>
-      <td>0.092498</td>
-      <td>0.100734</td>
-      <td>0.343698</td>
-      <td>0.115057</td>
-      <td>0.098343</td>
-      <td>0.096823</td>
-      <td>0.944264</td>
-      <td>0.064845</td>
-      <td>0.202592</td>
-      <td>0.083204</td>
-      <td>0.119228</td>
-      <td>0.134425</td>
       <td>0.000000</td>
-      <td>0.113063</td>
-      <td>0.667466</td>
-      <td>0.082456</td>
-      <td>3.401089</td>
+      <td>0.087117</td>
+      <td>0.000000</td>
+      <td>0.000000</td>
+      <td>0.000000</td>
+      <td>0.001290</td>
+      <td>0.000000</td>
+      <td>0.000000</td>
+      <td>0.000000</td>
+      <td>1.000000</td>
+      <td>0.000000</td>
+      <td>1.000000</td>
+      <td>0.000000</td>
+      <td>0.102994</td>
+      <td>1.000000</td>
+      <td>0.923947</td>
+      <td>0.000000</td>
+      <td>0.000000</td>
+      <td>4.115347</td>
     </tr>
     <tr>
-      <th rowspan="3" valign="top">photovoltaic</th>
-      <th rowspan="3" valign="top">3kWp slanted-roof installation</th>
-      <th rowspan="3" valign="top">multi-Si</th>
-      <th rowspan="3" valign="top">panel</th>
-      <th rowspan="3" valign="top">mounted</th>
-      <th rowspan="3" valign="top">kilowatt hour</th>
-      <th>IN-KA</th>
-      <td>0.524225</td>
-      <td>0.693847</td>
-      <td>0.713263</td>
-      <td>0.691966</td>
-      <td>0.704719</td>
-      <td>0.697498</td>
-      <td>0.712362</td>
-      <td>0.696513</td>
-      <td>0.691453</td>
-      <td>0.653018</td>
-      <td>0.706223</td>
-      <td>0.708526</td>
-      <td>0.703763</td>
-      <td>0.696484</td>
-      <td>0.685585</td>
-      <td>0.060491</td>
-      <td>0.704167</td>
-      <td>0.790337</td>
-      <td>0.717462</td>
-      <td>12.551903</td>
+      <th>natural gas</th>
+      <th>conventional power plant</th>
+      <th></th>
+      <th></th>
+      <th></th>
+      <th>kilowatt hour</th>
+      <th>CN-JS</th>
+      <td>0.079120</td>
+      <td>0.552922</td>
+      <td>0.000000</td>
+      <td>0.552836</td>
+      <td>0.052945</td>
+      <td>1.000000</td>
+      <td>0.000000</td>
+      <td>0.081488</td>
+      <td>0.113848</td>
+      <td>0.353906</td>
+      <td>0.000000</td>
+      <td>0.220836</td>
+      <td>0.874380</td>
+      <td>0.163834</td>
+      <td>0.000000</td>
+      <td>0.000000</td>
+      <td>0.578584</td>
+      <td>0.038077</td>
+      <td>0.015627</td>
+      <td>4.678403</td>
     </tr>
     <tr>
-      <th>CN-BJ</th>
-      <td>0.744872</td>
-      <td>1.000000</td>
-      <td>1.000000</td>
-      <td>1.000000</td>
-      <td>1.000000</td>
-      <td>1.000000</td>
-      <td>1.000000</td>
-      <td>1.000000</td>
-      <td>1.000000</td>
-      <td>1.000000</td>
-      <td>1.000000</td>
-      <td>1.000000</td>
-      <td>1.000000</td>
-      <td>1.000000</td>
-      <td>1.000000</td>
-      <td>0.085640</td>
-      <td>1.000000</td>
-      <td>1.000000</td>
-      <td>1.000000</td>
-      <td>17.830512</td>
+      <th rowspan="2" valign="top">photovoltaic</th>
+      <th rowspan="2" valign="top">3kWp slanted-roof installation</th>
+      <th rowspan="2" valign="top">multi-Si</th>
+      <th rowspan="2" valign="top">panel</th>
+      <th rowspan="2" valign="top">mounted</th>
+      <th rowspan="2" valign="top">kilowatt hour</th>
+      <th>IN-JH</th>
+      <td>0.773791</td>
+      <td>0.047011</td>
+      <td>0.770071</td>
+      <td>0.047359</td>
+      <td>0.034886</td>
+      <td>0.235214</td>
+      <td>0.066049</td>
+      <td>0.013513</td>
+      <td>0.035482</td>
+      <td>0.716799</td>
+      <td>0.004961</td>
+      <td>0.469677</td>
+      <td>0.002573</td>
+      <td>0.048516</td>
+      <td>0.185438</td>
+      <td>0.498725</td>
+      <td>0.000000</td>
+      <td>0.168763</td>
+      <td>0.786975</td>
+      <td>4.905804</td>
     </tr>
     <tr>
-      <th>CN-HB</th>
-      <td>0.744872</td>
+      <th>LV</th>
+      <td>1.000000</td>
+      <td>0.062728</td>
+      <td>1.000000</td>
+      <td>0.063182</td>
+      <td>0.045976</td>
+      <td>0.332602</td>
+      <td>0.086409</td>
+      <td>0.027954</td>
+      <td>0.048144</td>
+      <td>1.000000</td>
+      <td>0.006586</td>
+      <td>0.620632</td>
+      <td>0.039030</td>
+      <td>0.064746</td>
+      <td>0.272131</td>
+      <td>0.765254</td>
+      <td>0.017496</td>
+      <td>0.223432</td>
+      <td>1.000000</td>
+      <td>6.676299</td>
+    </tr>
+    <tr>
+      <th>hard coal</th>
+      <th></th>
+      <th></th>
+      <th></th>
+      <th></th>
+      <th>kilowatt hour</th>
+      <th>RoW</th>
+      <td>0.402550</td>
+      <td>1.000000</td>
+      <td>0.388987</td>
+      <td>1.000000</td>
+      <td>1.000000</td>
+      <td>0.255419</td>
       <td>1.000000</td>
       <td>1.000000</td>
       <td>1.000000</td>
+      <td>0.612291</td>
+      <td>0.002936</td>
+      <td>1.000000</td>
+      <td>0.000000</td>
       <td>1.000000</td>
       <td>1.000000</td>
+      <td>0.369608</td>
       <td>1.000000</td>
       <td>1.000000</td>
-      <td>1.000000</td>
-      <td>1.000000</td>
-      <td>1.000000</td>
-      <td>1.000000</td>
-      <td>1.000000</td>
-      <td>1.000000</td>
-      <td>1.000000</td>
-      <td>0.085640</td>
-      <td>1.000000</td>
-      <td>1.000000</td>
-      <td>1.000000</td>
-      <td>17.830512</td>
+      <td>0.018639</td>
+      <td>13.050429</td>
     </tr>
   </tbody>
 </table>
@@ -14347,7 +13026,8 @@ Name: (ILCD 2.0 2018 midpoint, climate change, climate change total), dtype: flo
 
 </div>
 <div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
-</div><div class="inner_cell">
+</div>
+<div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
 <h3 id="Export">Export<a class="anchor-link" href="#Export">&#182;</a></h3><p>Let's export the absolute and the normalized results to an excel file.</p>
 
@@ -14374,13 +13054,14 @@ Name: (ILCD 2.0 2018 midpoint, climate change, climate change total), dtype: flo
 <span class="n">writer</span><span class="o">.</span><span class="n">save</span><span class="p">()</span>
 </pre></div>
 
-    </div>
+</div>
 </div>
 </div>
 
 </div>
 <div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
-</div><div class="inner_cell">
+</div>
+<div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
 <h3 id="Visualization">Visualization<a class="anchor-link" href="#Visualization">&#182;</a></h3><p>Let's draw a heat map showing all normalized impacts for all activities and coloring them according to their magnitude.</p>
 
@@ -14389,7 +13070,7 @@ Name: (ILCD 2.0 2018 midpoint, climate change, climate change total), dtype: flo
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[10]:</div>
+<div class="prompt input_prompt">In&nbsp;[14]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="kn">import</span> <span class="nn">bokeh.io</span>
@@ -14415,7 +13096,8 @@ Name: (ILCD 2.0 2018 midpoint, climate change, climate change total), dtype: flo
 <span class="c1"># make figure</span>
 <span class="n">f</span> <span class="o">=</span> <span class="n">bokeh</span><span class="o">.</span><span class="n">plotting</span><span class="o">.</span><span class="n">figure</span><span class="p">(</span>
     <span class="n">x_axis_label</span><span class="o">=</span><span class="s2">&quot;ILCD 2.0 midpoint indicator&quot;</span><span class="p">,</span> <span class="n">y_axis_label</span><span class="o">=</span><span class="s1">&#39;ecoinvent activity&#39;</span><span class="p">,</span>
-    <span class="n">plot_width</span><span class="o">=</span><span class="mi">800</span><span class="p">,</span> <span class="n">plot_height</span><span class="o">=</span><span class="mi">900</span><span class="p">,</span> <span class="n">sizing_mode</span><span class="o">=</span><span class="s2">&quot;stretch_both&quot;</span><span class="p">,</span>  
+    <span class="n">plot_width</span><span class="o">=</span><span class="mi">900</span><span class="p">,</span> <span class="n">plot_height</span><span class="o">=</span><span class="mi">800</span><span class="p">,</span> 
+    <span class="c1">#sizing_mode=&quot;stretch_both&quot;,  </span>
     <span class="n">tooltips</span> <span class="o">=</span> <span class="n">TOOLTIPS</span><span class="p">,</span>
     <span class="n">y_range</span><span class="o">=</span><span class="n">bokeh</span><span class="o">.</span><span class="n">models</span><span class="o">.</span><span class="n">FactorRange</span><span class="p">(</span><span class="o">*</span><span class="n">names</span><span class="p">),</span>
     <span class="n">x_range</span><span class="o">=</span><span class="n">bokeh</span><span class="o">.</span><span class="n">models</span><span class="o">.</span><span class="n">FactorRange</span><span class="p">(</span><span class="o">*</span><span class="n">methods</span><span class="p">)</span>
@@ -14446,7 +13128,7 @@ Name: (ILCD 2.0 2018 midpoint, climate change, climate change total), dtype: flo
 <span class="n">bokeh</span><span class="o">.</span><span class="n">io</span><span class="o">.</span><span class="n">show</span><span class="p">(</span><span class="n">f</span><span class="p">)</span>
 </pre></div>
 
-    </div>
+</div>
 </div>
 </div>
 
@@ -14456,7 +13138,7 @@ Name: (ILCD 2.0 2018 midpoint, climate change, climate change total), dtype: flo
 
 <div class="output_area">
 
-    <div class="prompt"></div>
+<div class="prompt"></div>
 
 
 
@@ -14464,7 +13146,7 @@ Name: (ILCD 2.0 2018 midpoint, climate change, climate change total), dtype: flo
 
     <div class="bk-root">
         <a href="https://bokeh.pydata.org" target="_blank" class="bk-logo bk-logo-small bk-logo-notebook"></a>
-        <span id="1040">Loading BokehJS ...</span>
+        <span id="1631">Loading BokehJS ...</span>
     </div>
 </div>
 
@@ -14472,16 +13154,16 @@ Name: (ILCD 2.0 2018 midpoint, climate change, climate change total), dtype: flo
 
 <div class="output_area">
 
-    <div class="prompt"></div>
+<div class="prompt"></div>
 
 
 
 
 
-<div id="27c6304a-92e0-4284-b172-7341469b85be"></div>
+<div id="90c2898c-ad6f-45c4-98e4-f4fd5978e124"></div>
 <div class="output_subarea output_javascript ">
 <script type="text/javascript">
-var element = $('#27c6304a-92e0-4284-b172-7341469b85be');
+var element = $('#90c2898c-ad6f-45c4-98e4-f4fd5978e124');
 
 (function(root) {
   function now() {
@@ -14641,7 +13323,7 @@ var element = $('#27c6304a-92e0-4284-b172-7341469b85be');
      "</div>"}};
 
   function display_loaded() {
-    var el = document.getElementById("1040");
+    var el = document.getElementById("1631");
     if (el != null) {
       el.textContent = "BokehJS is loading...";
     }
@@ -14717,9 +13399,9 @@ var element = $('#27c6304a-92e0-4284-b172-7341469b85be');
       console.debug("Bokeh: injecting script tag for BokehJS library: ", url);
       document.head.appendChild(element);
     }
-  };var element = document.getElementById("1040");
+  };var element = document.getElementById("1631");
   if (element == null) {
-    console.error("Bokeh: ERROR: autoload.js configured with elementid '1040' but no matching script tag was found. ")
+    console.error("Bokeh: ERROR: autoload.js configured with elementid '1631' but no matching script tag was found. ")
     return false;
   }
 
@@ -14756,7 +13438,7 @@ var element = $('#27c6304a-92e0-4284-b172-7341469b85be');
       console.log("Bokeh: BokehJS failed to load within specified timeout.");
       root._bokeh_failed_load = true;
     } else if (force !== true) {
-      var cell = $(document.getElementById("1040")).parents('.cell').data().cell;
+      var cell = $(document.getElementById("1631")).parents('.cell').data().cell;
       cell.output_area.append_execute_result(NB_LOAD_WARNING)
     }
 
@@ -14779,7 +13461,7 @@ var element = $('#27c6304a-92e0-4284-b172-7341469b85be');
 
 <div class="output_area">
 
-    <div class="prompt"></div>
+<div class="prompt"></div>
 
 
 
@@ -14790,7 +13472,7 @@ var element = $('#27c6304a-92e0-4284-b172-7341469b85be');
 
 
 
-  <div class="bk-root" id="e336ed91-d057-4bf1-90c9-c99d88e983de" data-root-id="1003"></div>
+  <div class="bk-root" id="8a597481-c264-464b-9e18-ae3bc871afe8" data-root-id="1594"></div>
 
 </div>
 
@@ -14798,21 +13480,21 @@ var element = $('#27c6304a-92e0-4284-b172-7341469b85be');
 
 <div class="output_area">
 
-    <div class="prompt"></div>
+<div class="prompt"></div>
 
 
 
 
 
-<div id="9d2d356e-37ef-4a94-aa01-58f41ff2f131"></div>
+<div id="e2b754b7-c350-4916-9ea3-603da14178e2"></div>
 <div class="output_subarea output_javascript ">
 <script type="text/javascript">
-var element = $('#9d2d356e-37ef-4a94-aa01-58f41ff2f131');
+var element = $('#e2b754b7-c350-4916-9ea3-603da14178e2');
 (function(root) {
   function embed_document(root) {
     
-  var docs_json = {"6226eb52-e4e4-4d88-92ec-f6949e4fdf42":{"roots":{"references":[{"attributes":{"below":[{"id":"1010","type":"CategoricalAxis"}],"center":[{"id":"1013","type":"Grid"},{"id":"1017","type":"Grid"}],"left":[{"id":"1014","type":"CategoricalAxis"}],"plot_height":900,"plot_width":800,"renderers":[{"id":"1038","type":"GlyphRenderer"}],"sizing_mode":"stretch_both","title":{"id":"1041","type":"Title"},"toolbar":{"id":"1025","type":"Toolbar"},"x_range":{"id":"1002","type":"FactorRange"},"x_scale":{"id":"1006","type":"CategoricalScale"},"y_range":{"id":"1001","type":"FactorRange"},"y_scale":{"id":"1008","type":"CategoricalScale"}},"id":"1003","subtype":"Figure","type":"Plot"},{"attributes":{"dimension":1,"ticker":{"id":"1015","type":"CategoricalTicker"}},"id":"1017","type":"Grid"},{"attributes":{"text":""},"id":"1041","type":"Title"},{"attributes":{"active_drag":"auto","active_inspect":"auto","active_multi":null,"active_scroll":"auto","active_tap":"auto","tools":[{"id":"1018","type":"PanTool"},{"id":"1019","type":"WheelZoomTool"},{"id":"1020","type":"BoxZoomTool"},{"id":"1021","type":"SaveTool"},{"id":"1022","type":"ResetTool"},{"id":"1023","type":"HelpTool"},{"id":"1024","type":"HoverTool"}]},"id":"1025","type":"Toolbar"},{"attributes":{},"id":"1045","type":"CategoricalTickFormatter"},{"attributes":{"data_source":{"id":"1034","type":"ColumnDataSource"},"glyph":{"id":"1036","type":"Rect"},"hover_glyph":null,"muted_glyph":null,"nonselection_glyph":{"id":"1037","type":"Rect"},"selection_glyph":null,"view":{"id":"1039","type":"CDSView"}},"id":"1038","type":"GlyphRenderer"},{"attributes":{"callback":null,"factors":["photovoltaic 3kWp slanted-roof installation multi-Si panel mounted kilowatt hour IN-KA","hydro reservoir alpine region kilowatt hour IN-RJ","photovoltaic 3kWp slanted-roof installation multi-Si panel mounted kilowatt hour CN-BJ","photovoltaic 3kWp slanted-roof installation multi-Si panel mounted kilowatt hour CN-HB","wind 1-3MW turbine onshore kilowatt hour PT"]},"id":"1001","type":"FactorRange"},{"attributes":{"high":0,"low":1,"palette":["#67000d","#a50f15","#cb181d","#ef3b2c","#fb6a4a","#fc9272","#fcbba1","#fee0d2","#fff5f0"]},"id":"1033","type":"LinearColorMapper"},{"attributes":{"bottom_units":"screen","fill_alpha":{"value":0.5},"fill_color":{"value":"lightgrey"},"left_units":"screen","level":"overlay","line_alpha":{"value":1.0},"line_color":{"value":"black"},"line_dash":[4,4],"line_width":{"value":2},"render_mode":"css","right_units":"screen","top_units":"screen"},"id":"1047","type":"BoxAnnotation"},{"attributes":{},"id":"1018","type":"PanTool"},{"attributes":{},"id":"1019","type":"WheelZoomTool"},{"attributes":{},"id":"1048","type":"UnionRenderers"},{"attributes":{"overlay":{"id":"1047","type":"BoxAnnotation"}},"id":"1020","type":"BoxZoomTool"},{"attributes":{},"id":"1006","type":"CategoricalScale"},{"attributes":{},"id":"1049","type":"Selection"},{"attributes":{},"id":"1021","type":"SaveTool"},{"attributes":{},"id":"1022","type":"ResetTool"},{"attributes":{"axis_label":"ILCD 2.0 midpoint indicator","formatter":{"id":"1043","type":"CategoricalTickFormatter"},"major_label_orientation":0.7853981633974483,"ticker":{"id":"1011","type":"CategoricalTicker"}},"id":"1010","type":"CategoricalAxis"},{"attributes":{},"id":"1023","type":"HelpTool"},{"attributes":{"callback":null,"tooltips":[["activity","@act"],["impact category","@cat"],["normalized score","@score"]]},"id":"1024","type":"HoverTool"},{"attributes":{"fill_alpha":{"value":0.1},"fill_color":{"value":"#1f77b4"},"height":{"units":"data","value":1},"line_alpha":{"value":0.1},"line_color":{"value":"#1f77b4"},"width":{"units":"data","value":1},"x":{"field":"cat"},"y":{"field":"act"}},"id":"1037","type":"Rect"},{"attributes":{},"id":"1008","type":"CategoricalScale"},{"attributes":{"callback":null,"factors":["climate change, climate change biogenic","climate change, climate change fossil","climate change, climate change land use and land use change","climate change, climate change total","ecosystem quality, freshwater and terrestrial acidification","ecosystem quality, freshwater ecotoxicity","ecosystem quality, freshwater eutrophication","ecosystem quality, marine eutrophication","ecosystem quality, terrestrial eutrophication","human health, carcinogenic effects","human health, ionising radiation","human health, non-carcinogenic effects","human health, ozone layer depletion","human health, photochemical ozone creation","human health, respiratory effects, inorganics","resources, dissipated water","resources, fossils","resources, land use","resources, minerals and metals"]},"id":"1002","type":"FactorRange"},{"attributes":{},"id":"1043","type":"CategoricalTickFormatter"},{"attributes":{"fill_color":{"field":"score","transform":{"id":"1033","type":"LinearColorMapper"}},"height":{"units":"data","value":1},"line_color":{"value":null},"width":{"units":"data","value":1},"x":{"field":"cat"},"y":{"field":"act"}},"id":"1036","type":"Rect"},{"attributes":{},"id":"1011","type":"CategoricalTicker"},{"attributes":{"ticker":{"id":"1011","type":"CategoricalTicker"}},"id":"1013","type":"Grid"},{"attributes":{"source":{"id":"1034","type":"ColumnDataSource"}},"id":"1039","type":"CDSView"},{"attributes":{"axis_label":"ecoinvent activity","formatter":{"id":"1045","type":"CategoricalTickFormatter"},"ticker":{"id":"1015","type":"CategoricalTicker"}},"id":"1014","type":"CategoricalAxis"},{"attributes":{"callback":null,"data":{"act":["photovoltaic 3kWp slanted-roof installation multi-Si panel mounted kilowatt hour IN-KA","photovoltaic 3kWp slanted-roof installation multi-Si panel mounted kilowatt hour IN-KA","photovoltaic 3kWp slanted-roof installation multi-Si panel mounted kilowatt hour IN-KA","photovoltaic 3kWp slanted-roof installation multi-Si panel mounted kilowatt hour IN-KA","photovoltaic 3kWp slanted-roof installation multi-Si panel mounted kilowatt hour IN-KA","photovoltaic 3kWp slanted-roof installation multi-Si panel mounted kilowatt hour IN-KA","photovoltaic 3kWp slanted-roof installation multi-Si panel mounted kilowatt hour IN-KA","photovoltaic 3kWp slanted-roof installation multi-Si panel mounted kilowatt hour IN-KA","photovoltaic 3kWp slanted-roof installation multi-Si panel mounted kilowatt hour IN-KA","photovoltaic 3kWp slanted-roof installation multi-Si panel mounted kilowatt hour IN-KA","photovoltaic 3kWp slanted-roof installation multi-Si panel mounted kilowatt hour IN-KA","photovoltaic 3kWp slanted-roof installation multi-Si panel mounted kilowatt hour IN-KA","photovoltaic 3kWp slanted-roof installation multi-Si panel mounted kilowatt hour IN-KA","photovoltaic 3kWp slanted-roof installation multi-Si panel mounted kilowatt hour IN-KA","photovoltaic 3kWp slanted-roof installation multi-Si panel mounted kilowatt hour IN-KA","photovoltaic 3kWp slanted-roof installation multi-Si panel mounted kilowatt hour IN-KA","photovoltaic 3kWp slanted-roof installation multi-Si panel mounted kilowatt hour IN-KA","photovoltaic 3kWp slanted-roof installation multi-Si panel mounted kilowatt hour IN-KA","photovoltaic 3kWp slanted-roof installation multi-Si panel mounted kilowatt hour IN-KA","hydro reservoir alpine region kilowatt hour IN-RJ","hydro reservoir alpine region kilowatt hour IN-RJ","hydro reservoir alpine region kilowatt hour IN-RJ","hydro reservoir alpine region kilowatt hour IN-RJ","hydro reservoir alpine region kilowatt hour IN-RJ","hydro reservoir alpine region kilowatt hour IN-RJ","hydro reservoir alpine region kilowatt hour IN-RJ","hydro reservoir alpine region kilowatt hour IN-RJ","hydro reservoir alpine region kilowatt hour IN-RJ","hydro reservoir alpine region kilowatt hour IN-RJ","hydro reservoir alpine region kilowatt hour IN-RJ","hydro reservoir alpine region kilowatt hour IN-RJ","hydro reservoir alpine region kilowatt hour IN-RJ","hydro reservoir alpine region kilowatt hour IN-RJ","hydro reservoir alpine region kilowatt hour IN-RJ","hydro reservoir alpine region kilowatt hour IN-RJ","hydro reservoir alpine region kilowatt hour IN-RJ","hydro reservoir alpine region kilowatt hour IN-RJ","hydro reservoir alpine region kilowatt hour IN-RJ","photovoltaic 3kWp slanted-roof installation multi-Si panel mounted kilowatt hour CN-BJ","photovoltaic 3kWp slanted-roof installation multi-Si panel mounted kilowatt hour CN-BJ","photovoltaic 3kWp slanted-roof installation multi-Si panel mounted kilowatt hour CN-BJ","photovoltaic 3kWp slanted-roof installation multi-Si panel mounted kilowatt hour CN-BJ","photovoltaic 3kWp slanted-roof installation multi-Si panel mounted kilowatt hour CN-BJ","photovoltaic 3kWp slanted-roof installation multi-Si panel mounted kilowatt hour CN-BJ","photovoltaic 3kWp slanted-roof installation multi-Si panel mounted kilowatt hour CN-BJ","photovoltaic 3kWp slanted-roof installation multi-Si panel mounted kilowatt hour CN-BJ","photovoltaic 3kWp slanted-roof installation multi-Si panel mounted kilowatt hour CN-BJ","photovoltaic 3kWp slanted-roof installation multi-Si panel mounted kilowatt hour CN-BJ","photovoltaic 3kWp slanted-roof installation multi-Si panel mounted kilowatt hour CN-BJ","photovoltaic 3kWp slanted-roof installation multi-Si panel mounted kilowatt hour CN-BJ","photovoltaic 3kWp slanted-roof installation multi-Si panel mounted kilowatt hour CN-BJ","photovoltaic 3kWp slanted-roof installation multi-Si panel mounted kilowatt hour CN-BJ","photovoltaic 3kWp slanted-roof installation multi-Si panel mounted kilowatt hour CN-BJ","photovoltaic 3kWp slanted-roof installation multi-Si panel mounted kilowatt hour CN-BJ","photovoltaic 3kWp slanted-roof installation multi-Si panel mounted kilowatt hour CN-BJ","photovoltaic 3kWp slanted-roof installation multi-Si panel mounted kilowatt hour CN-BJ","photovoltaic 3kWp slanted-roof installation multi-Si panel mounted kilowatt hour CN-BJ","photovoltaic 3kWp slanted-roof installation multi-Si panel mounted kilowatt hour CN-HB","photovoltaic 3kWp slanted-roof installation multi-Si panel mounted kilowatt hour CN-HB","photovoltaic 3kWp slanted-roof installation multi-Si panel mounted kilowatt hour CN-HB","photovoltaic 3kWp slanted-roof installation multi-Si panel mounted kilowatt hour CN-HB","photovoltaic 3kWp slanted-roof installation multi-Si panel mounted kilowatt hour CN-HB","photovoltaic 3kWp slanted-roof installation multi-Si panel mounted kilowatt hour CN-HB","photovoltaic 3kWp slanted-roof installation multi-Si panel mounted kilowatt hour CN-HB","photovoltaic 3kWp slanted-roof installation multi-Si panel mounted kilowatt hour CN-HB","photovoltaic 3kWp slanted-roof installation multi-Si panel mounted kilowatt hour CN-HB","photovoltaic 3kWp slanted-roof installation multi-Si panel mounted kilowatt hour CN-HB","photovoltaic 3kWp slanted-roof installation multi-Si panel mounted kilowatt hour CN-HB","photovoltaic 3kWp slanted-roof installation multi-Si panel mounted kilowatt hour CN-HB","photovoltaic 3kWp slanted-roof installation multi-Si panel mounted kilowatt hour CN-HB","photovoltaic 3kWp slanted-roof installation multi-Si panel mounted kilowatt hour CN-HB","photovoltaic 3kWp slanted-roof installation multi-Si panel mounted kilowatt hour CN-HB","photovoltaic 3kWp slanted-roof installation multi-Si panel mounted kilowatt hour CN-HB","photovoltaic 3kWp slanted-roof installation multi-Si panel mounted kilowatt hour CN-HB","photovoltaic 3kWp slanted-roof installation multi-Si panel mounted kilowatt hour CN-HB","photovoltaic 3kWp slanted-roof installation multi-Si panel mounted kilowatt hour CN-HB","wind 1-3MW turbine onshore kilowatt hour PT","wind 1-3MW turbine onshore kilowatt hour PT","wind 1-3MW turbine onshore kilowatt hour PT","wind 1-3MW turbine onshore kilowatt hour PT","wind 1-3MW turbine onshore kilowatt hour PT","wind 1-3MW turbine onshore kilowatt hour PT","wind 1-3MW turbine onshore kilowatt hour PT","wind 1-3MW turbine onshore kilowatt hour PT","wind 1-3MW turbine onshore kilowatt hour PT","wind 1-3MW turbine onshore kilowatt hour PT","wind 1-3MW turbine onshore kilowatt hour PT","wind 1-3MW turbine onshore kilowatt hour PT","wind 1-3MW turbine onshore kilowatt hour PT","wind 1-3MW turbine onshore kilowatt hour PT","wind 1-3MW turbine onshore kilowatt hour PT","wind 1-3MW turbine onshore kilowatt hour PT","wind 1-3MW turbine onshore kilowatt hour PT","wind 1-3MW turbine onshore kilowatt hour PT","wind 1-3MW turbine onshore kilowatt hour PT"],"cat":["climate change, climate change biogenic","climate change, climate change fossil","climate change, climate change land use and land use change","climate change, climate change total","ecosystem quality, freshwater and terrestrial acidification","ecosystem quality, freshwater ecotoxicity","ecosystem quality, freshwater eutrophication","ecosystem quality, marine eutrophication","ecosystem quality, terrestrial eutrophication","human health, carcinogenic effects","human health, ionising radiation","human health, non-carcinogenic effects","human health, ozone layer depletion","human health, photochemical ozone creation","human health, respiratory effects, inorganics","resources, dissipated water","resources, fossils","resources, land use","resources, minerals and metals","climate change, climate change biogenic","climate change, climate change fossil","climate change, climate change land use and land use change","climate change, climate change total","ecosystem quality, freshwater and terrestrial acidification","ecosystem quality, freshwater ecotoxicity","ecosystem quality, freshwater eutrophication","ecosystem quality, marine eutrophication","ecosystem quality, terrestrial eutrophication","human health, carcinogenic effects","human health, ionising radiation","human health, non-carcinogenic effects","human health, ozone layer depletion","human health, photochemical ozone creation","human health, respiratory effects, inorganics","resources, dissipated water","resources, fossils","resources, land use","resources, minerals and metals","climate change, climate change biogenic","climate change, climate change fossil","climate change, climate change land use and land use change","climate change, climate change total","ecosystem quality, freshwater and terrestrial acidification","ecosystem quality, freshwater ecotoxicity","ecosystem quality, freshwater eutrophication","ecosystem quality, marine eutrophication","ecosystem quality, terrestrial eutrophication","human health, carcinogenic effects","human health, ionising radiation","human health, non-carcinogenic effects","human health, ozone layer depletion","human health, photochemical ozone creation","human health, respiratory effects, inorganics","resources, dissipated water","resources, fossils","resources, land use","resources, minerals and metals","climate change, climate change biogenic","climate change, climate change fossil","climate change, climate change land use and land use change","climate change, climate change total","ecosystem quality, freshwater and terrestrial acidification","ecosystem quality, freshwater ecotoxicity","ecosystem quality, freshwater eutrophication","ecosystem quality, marine eutrophication","ecosystem quality, terrestrial eutrophication","human health, carcinogenic effects","human health, ionising radiation","human health, non-carcinogenic effects","human health, ozone layer depletion","human health, photochemical ozone creation","human health, respiratory effects, inorganics","resources, dissipated water","resources, fossils","resources, land use","resources, minerals and metals","climate change, climate change biogenic","climate change, climate change fossil","climate change, climate change land use and land use change","climate change, climate change total","ecosystem quality, freshwater and terrestrial acidification","ecosystem quality, freshwater ecotoxicity","ecosystem quality, freshwater eutrophication","ecosystem quality, marine eutrophication","ecosystem quality, terrestrial eutrophication","human health, carcinogenic effects","human health, ionising radiation","human health, non-carcinogenic effects","human health, ozone layer depletion","human health, photochemical ozone creation","human health, respiratory effects, inorganics","resources, dissipated water","resources, fossils","resources, land use","resources, minerals and metals"],"score":[1.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,1.0,0.0,0.0,0.0,0.0,0.09892075447338201,0.04346962597854079,0.09249826072100553,0.10073427751493344,0.3436980859401192,0.11505717673738552,0.09834286699303087,0.09682272985310678,0.9442643814529346,0.06484503760775102,0.2025915492539269,0.08320429797057333,0.11922840113052355,0.13442523561653127,0.0,0.11306341443972368,0.6674664342784901,0.0824559793848346,0.5242254602547054,0.6938465874603905,0.7132627882776404,0.6919662915671744,0.7047194873589437,0.6974982672957787,0.7123623455861753,0.6965132248464774,0.6914534618084289,0.653017857000137,0.7062226751930161,0.7085255009021494,0.7037630065822559,0.6964841799576916,0.6855854757933679,0.06049054181303447,0.7041665319998098,0.7903374765888759,0.7174617964708971,0.744871999270777,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,0.08563989480143001,1.0,1.0,1.0,0.744871999270777,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,0.08563989480143001,1.0,1.0,1.0]},"selected":{"id":"1049","type":"Selection"},"selection_policy":{"id":"1048","type":"UnionRenderers"}},"id":"1034","type":"ColumnDataSource"},{"attributes":{},"id":"1015","type":"CategoricalTicker"}],"root_ids":["1003"]},"title":"Bokeh Application","version":"1.1.0"}};
-  var render_items = [{"docid":"6226eb52-e4e4-4d88-92ec-f6949e4fdf42","roots":{"1003":"e336ed91-d057-4bf1-90c9-c99d88e983de"}}];
+  var docs_json = {"b007b30c-fe4a-4108-a06b-7b358dc88443":{"roots":{"references":[{"attributes":{"below":[{"id":"1601","type":"CategoricalAxis"}],"center":[{"id":"1604","type":"Grid"},{"id":"1608","type":"Grid"}],"left":[{"id":"1605","type":"CategoricalAxis"}],"plot_height":800,"plot_width":900,"renderers":[{"id":"1629","type":"GlyphRenderer"}],"title":{"id":"1659","type":"Title"},"toolbar":{"id":"1616","type":"Toolbar"},"x_range":{"id":"1593","type":"FactorRange"},"x_scale":{"id":"1597","type":"CategoricalScale"},"y_range":{"id":"1592","type":"FactorRange"},"y_scale":{"id":"1599","type":"CategoricalScale"}},"id":"1594","subtype":"Figure","type":"Plot"},{"attributes":{},"id":"1610","type":"WheelZoomTool"},{"attributes":{},"id":"1613","type":"ResetTool"},{"attributes":{"active_drag":"auto","active_inspect":"auto","active_multi":null,"active_scroll":"auto","active_tap":"auto","tools":[{"id":"1609","type":"PanTool"},{"id":"1610","type":"WheelZoomTool"},{"id":"1611","type":"BoxZoomTool"},{"id":"1612","type":"SaveTool"},{"id":"1613","type":"ResetTool"},{"id":"1614","type":"HelpTool"},{"id":"1615","type":"HoverTool"}]},"id":"1616","type":"Toolbar"},{"attributes":{},"id":"1612","type":"SaveTool"},{"attributes":{},"id":"1609","type":"PanTool"},{"attributes":{"source":{"id":"1625","type":"ColumnDataSource"}},"id":"1630","type":"CDSView"},{"attributes":{"overlay":{"id":"1665","type":"BoxAnnotation"}},"id":"1611","type":"BoxZoomTool"},{"attributes":{},"id":"1606","type":"CategoricalTicker"},{"attributes":{},"id":"1614","type":"HelpTool"},{"attributes":{},"id":"1666","type":"UnionRenderers"},{"attributes":{"callback":null,"factors":["natural gas conventional power plant kilowatt hour CN-JS","hard coal kilowatt hour RoW","nuclear boiling water reactor kilowatt hour US-NPCC","photovoltaic 3kWp slanted-roof installation multi-Si panel mounted kilowatt hour LV","photovoltaic 3kWp slanted-roof installation multi-Si panel mounted kilowatt hour IN-JH"]},"id":"1592","type":"FactorRange"},{"attributes":{"bottom_units":"screen","fill_alpha":{"value":0.5},"fill_color":{"value":"lightgrey"},"left_units":"screen","level":"overlay","line_alpha":{"value":1.0},"line_color":{"value":"black"},"line_dash":[4,4],"line_width":{"value":2},"render_mode":"css","right_units":"screen","top_units":"screen"},"id":"1665","type":"BoxAnnotation"},{"attributes":{},"id":"1599","type":"CategoricalScale"},{"attributes":{},"id":"1664","type":"CategoricalTickFormatter"},{"attributes":{"callback":null,"factors":["climate change, climate change biogenic","climate change, climate change fossil","climate change, climate change land use and land use change","climate change, climate change total","ecosystem quality, freshwater and terrestrial acidification","ecosystem quality, freshwater ecotoxicity","ecosystem quality, freshwater eutrophication","ecosystem quality, marine eutrophication","ecosystem quality, terrestrial eutrophication","human health, carcinogenic effects","human health, ionising radiation","human health, non-carcinogenic effects","human health, ozone layer depletion","human health, photochemical ozone creation","human health, respiratory effects, inorganics","resources, dissipated water","resources, fossils","resources, land use","resources, minerals and metals"]},"id":"1593","type":"FactorRange"},{"attributes":{},"id":"1662","type":"CategoricalTickFormatter"},{"attributes":{"callback":null,"tooltips":[["activity","@act"],["impact category","@cat"],["normalized score","@score"]]},"id":"1615","type":"HoverTool"},{"attributes":{"axis_label":"ILCD 2.0 midpoint indicator","formatter":{"id":"1662","type":"CategoricalTickFormatter"},"major_label_orientation":0.7853981633974483,"ticker":{"id":"1602","type":"CategoricalTicker"}},"id":"1601","type":"CategoricalAxis"},{"attributes":{"fill_alpha":{"value":0.1},"fill_color":{"value":"#1f77b4"},"height":{"units":"data","value":1},"line_alpha":{"value":0.1},"line_color":{"value":"#1f77b4"},"width":{"units":"data","value":1},"x":{"field":"cat"},"y":{"field":"act"}},"id":"1628","type":"Rect"},{"attributes":{"dimension":1,"ticker":{"id":"1606","type":"CategoricalTicker"}},"id":"1608","type":"Grid"},{"attributes":{"fill_color":{"field":"score","transform":{"id":"1624","type":"LinearColorMapper"}},"height":{"units":"data","value":1},"line_color":{"value":null},"width":{"units":"data","value":1},"x":{"field":"cat"},"y":{"field":"act"}},"id":"1627","type":"Rect"},{"attributes":{},"id":"1667","type":"Selection"},{"attributes":{"axis_label":"ecoinvent activity","formatter":{"id":"1664","type":"CategoricalTickFormatter"},"ticker":{"id":"1606","type":"CategoricalTicker"}},"id":"1605","type":"CategoricalAxis"},{"attributes":{"ticker":{"id":"1602","type":"CategoricalTicker"}},"id":"1604","type":"Grid"},{"attributes":{},"id":"1602","type":"CategoricalTicker"},{"attributes":{"callback":null,"data":{"act":["natural gas conventional power plant kilowatt hour CN-JS","natural gas conventional power plant kilowatt hour CN-JS","natural gas conventional power plant kilowatt hour CN-JS","natural gas conventional power plant kilowatt hour CN-JS","natural gas conventional power plant kilowatt hour CN-JS","natural gas conventional power plant kilowatt hour CN-JS","natural gas conventional power plant kilowatt hour CN-JS","natural gas conventional power plant kilowatt hour CN-JS","natural gas conventional power plant kilowatt hour CN-JS","natural gas conventional power plant kilowatt hour CN-JS","natural gas conventional power plant kilowatt hour CN-JS","natural gas conventional power plant kilowatt hour CN-JS","natural gas conventional power plant kilowatt hour CN-JS","natural gas conventional power plant kilowatt hour CN-JS","natural gas conventional power plant kilowatt hour CN-JS","natural gas conventional power plant kilowatt hour CN-JS","natural gas conventional power plant kilowatt hour CN-JS","natural gas conventional power plant kilowatt hour CN-JS","natural gas conventional power plant kilowatt hour CN-JS","hard coal kilowatt hour RoW","hard coal kilowatt hour RoW","hard coal kilowatt hour RoW","hard coal kilowatt hour RoW","hard coal kilowatt hour RoW","hard coal kilowatt hour RoW","hard coal kilowatt hour RoW","hard coal kilowatt hour RoW","hard coal kilowatt hour RoW","hard coal kilowatt hour RoW","hard coal kilowatt hour RoW","hard coal kilowatt hour RoW","hard coal kilowatt hour RoW","hard coal kilowatt hour RoW","hard coal kilowatt hour RoW","hard coal kilowatt hour RoW","hard coal kilowatt hour RoW","hard coal kilowatt hour RoW","hard coal kilowatt hour RoW","nuclear boiling water reactor kilowatt hour US-NPCC","nuclear boiling water reactor kilowatt hour US-NPCC","nuclear boiling water reactor kilowatt hour US-NPCC","nuclear boiling water reactor kilowatt hour US-NPCC","nuclear boiling water reactor kilowatt hour US-NPCC","nuclear boiling water reactor kilowatt hour US-NPCC","nuclear boiling water reactor kilowatt hour US-NPCC","nuclear boiling water reactor kilowatt hour US-NPCC","nuclear boiling water reactor kilowatt hour US-NPCC","nuclear boiling water reactor kilowatt hour US-NPCC","nuclear boiling water reactor kilowatt hour US-NPCC","nuclear boiling water reactor kilowatt hour US-NPCC","nuclear boiling water reactor kilowatt hour US-NPCC","nuclear boiling water reactor kilowatt hour US-NPCC","nuclear boiling water reactor kilowatt hour US-NPCC","nuclear boiling water reactor kilowatt hour US-NPCC","nuclear boiling water reactor kilowatt hour US-NPCC","nuclear boiling water reactor kilowatt hour US-NPCC","nuclear boiling water reactor kilowatt hour US-NPCC","photovoltaic 3kWp slanted-roof installation multi-Si panel mounted kilowatt hour LV","photovoltaic 3kWp slanted-roof installation multi-Si panel mounted kilowatt hour LV","photovoltaic 3kWp slanted-roof installation multi-Si panel mounted kilowatt hour LV","photovoltaic 3kWp slanted-roof installation multi-Si panel mounted kilowatt hour LV","photovoltaic 3kWp slanted-roof installation multi-Si panel mounted kilowatt hour LV","photovoltaic 3kWp slanted-roof installation multi-Si panel mounted kilowatt hour LV","photovoltaic 3kWp slanted-roof installation multi-Si panel mounted kilowatt hour LV","photovoltaic 3kWp slanted-roof installation multi-Si panel mounted kilowatt hour LV","photovoltaic 3kWp slanted-roof installation multi-Si panel mounted kilowatt hour LV","photovoltaic 3kWp slanted-roof installation multi-Si panel mounted kilowatt hour LV","photovoltaic 3kWp slanted-roof installation multi-Si panel mounted kilowatt hour LV","photovoltaic 3kWp slanted-roof installation multi-Si panel mounted kilowatt hour LV","photovoltaic 3kWp slanted-roof installation multi-Si panel mounted kilowatt hour LV","photovoltaic 3kWp slanted-roof installation multi-Si panel mounted kilowatt hour LV","photovoltaic 3kWp slanted-roof installation multi-Si panel mounted kilowatt hour LV","photovoltaic 3kWp slanted-roof installation multi-Si panel mounted kilowatt hour LV","photovoltaic 3kWp slanted-roof installation multi-Si panel mounted kilowatt hour LV","photovoltaic 3kWp slanted-roof installation multi-Si panel mounted kilowatt hour LV","photovoltaic 3kWp slanted-roof installation multi-Si panel mounted kilowatt hour LV","photovoltaic 3kWp slanted-roof installation multi-Si panel mounted kilowatt hour IN-JH","photovoltaic 3kWp slanted-roof installation multi-Si panel mounted kilowatt hour IN-JH","photovoltaic 3kWp slanted-roof installation multi-Si panel mounted kilowatt hour IN-JH","photovoltaic 3kWp slanted-roof installation multi-Si panel mounted kilowatt hour IN-JH","photovoltaic 3kWp slanted-roof installation multi-Si panel mounted kilowatt hour IN-JH","photovoltaic 3kWp slanted-roof installation multi-Si panel mounted kilowatt hour IN-JH","photovoltaic 3kWp slanted-roof installation multi-Si panel mounted kilowatt hour IN-JH","photovoltaic 3kWp slanted-roof installation multi-Si panel mounted kilowatt hour IN-JH","photovoltaic 3kWp slanted-roof installation multi-Si panel mounted kilowatt hour IN-JH","photovoltaic 3kWp slanted-roof installation multi-Si panel mounted kilowatt hour IN-JH","photovoltaic 3kWp slanted-roof installation multi-Si panel mounted kilowatt hour IN-JH","photovoltaic 3kWp slanted-roof installation multi-Si panel mounted kilowatt hour IN-JH","photovoltaic 3kWp slanted-roof installation multi-Si panel mounted kilowatt hour IN-JH","photovoltaic 3kWp slanted-roof installation multi-Si panel mounted kilowatt hour IN-JH","photovoltaic 3kWp slanted-roof installation multi-Si panel mounted kilowatt hour IN-JH","photovoltaic 3kWp slanted-roof installation multi-Si panel mounted kilowatt hour IN-JH","photovoltaic 3kWp slanted-roof installation multi-Si panel mounted kilowatt hour IN-JH","photovoltaic 3kWp slanted-roof installation multi-Si panel mounted kilowatt hour IN-JH","photovoltaic 3kWp slanted-roof installation multi-Si panel mounted kilowatt hour IN-JH"],"cat":["climate change, climate change biogenic","climate change, climate change fossil","climate change, climate change land use and land use change","climate change, climate change total","ecosystem quality, freshwater and terrestrial acidification","ecosystem quality, freshwater ecotoxicity","ecosystem quality, freshwater eutrophication","ecosystem quality, marine eutrophication","ecosystem quality, terrestrial eutrophication","human health, carcinogenic effects","human health, ionising radiation","human health, non-carcinogenic effects","human health, ozone layer depletion","human health, photochemical ozone creation","human health, respiratory effects, inorganics","resources, dissipated water","resources, fossils","resources, land use","resources, minerals and metals","climate change, climate change biogenic","climate change, climate change fossil","climate change, climate change land use and land use change","climate change, climate change total","ecosystem quality, freshwater and terrestrial acidification","ecosystem quality, freshwater ecotoxicity","ecosystem quality, freshwater eutrophication","ecosystem quality, marine eutrophication","ecosystem quality, terrestrial eutrophication","human health, carcinogenic effects","human health, ionising radiation","human health, non-carcinogenic effects","human health, ozone layer depletion","human health, photochemical ozone creation","human health, respiratory effects, inorganics","resources, dissipated water","resources, fossils","resources, land use","resources, minerals and metals","climate change, climate change biogenic","climate change, climate change fossil","climate change, climate change land use and land use change","climate change, climate change total","ecosystem quality, freshwater and terrestrial acidification","ecosystem quality, freshwater ecotoxicity","ecosystem quality, freshwater eutrophication","ecosystem quality, marine eutrophication","ecosystem quality, terrestrial eutrophication","human health, carcinogenic effects","human health, ionising radiation","human health, non-carcinogenic effects","human health, ozone layer depletion","human health, photochemical ozone creation","human health, respiratory effects, inorganics","resources, dissipated water","resources, fossils","resources, land use","resources, minerals and metals","climate change, climate change biogenic","climate change, climate change fossil","climate change, climate change land use and land use change","climate change, climate change total","ecosystem quality, freshwater and terrestrial acidification","ecosystem quality, freshwater ecotoxicity","ecosystem quality, freshwater eutrophication","ecosystem quality, marine eutrophication","ecosystem quality, terrestrial eutrophication","human health, carcinogenic effects","human health, ionising radiation","human health, non-carcinogenic effects","human health, ozone layer depletion","human health, photochemical ozone creation","human health, respiratory effects, inorganics","resources, dissipated water","resources, fossils","resources, land use","resources, minerals and metals","climate change, climate change biogenic","climate change, climate change fossil","climate change, climate change land use and land use change","climate change, climate change total","ecosystem quality, freshwater and terrestrial acidification","ecosystem quality, freshwater ecotoxicity","ecosystem quality, freshwater eutrophication","ecosystem quality, marine eutrophication","ecosystem quality, terrestrial eutrophication","human health, carcinogenic effects","human health, ionising radiation","human health, non-carcinogenic effects","human health, ozone layer depletion","human health, photochemical ozone creation","human health, respiratory effects, inorganics","resources, dissipated water","resources, fossils","resources, land use","resources, minerals and metals"],"score":[0.0,0.0,0.08711699836901678,0.0,0.0,0.0,0.001289833240354371,0.0,0.0,0.0,1.0,0.0,1.0,0.0,0.10299379122194806,1.0,0.9239466261889019,0.0,0.0,0.0791204333104106,0.5529219622677178,0.0,0.5528362004465545,0.05294460234678785,1.0,0.0,0.08148825054328823,0.1138476385554691,0.35390597608341373,0.0,0.22083581886627376,0.8743803201455498,0.1638339779902565,0.0,0.0,0.5785838412775223,0.038077394977570636,0.0156268535262453,0.773790528483177,0.047011148334534056,0.770070885595398,0.04735885342726558,0.034886484859144445,0.235213652797744,0.06604945072453494,0.013513345615655852,0.035482408625653994,0.7167993534947181,0.0049608335824404964,0.46967709384002837,0.0025727590954577433,0.04851644247536204,0.1854378087030079,0.4987247340517232,0.0,0.16876332845286285,0.786975231899193,1.0,0.06272783735751,1.0,0.06318153564222315,0.04597561853990628,0.3326022188806999,0.08640856796972896,0.02795407106874258,0.04814426621864945,1.0,0.0065857544945323145,0.6206318344200278,0.03902978408989978,0.0647456402474717,0.27213066557106885,0.7652536688660563,0.017496004520115297,0.22343172042417161,1.0,0.40254953297503315,1.0,0.38898702162520987,1.0,1.0,0.25541876185124857,1.0,1.0,1.0,0.6122910020804365,0.0029359364922541095,1.0,0.0,1.0,1.0,0.3696077564518244,1.0,1.0,0.01863854769019928]},"selected":{"id":"1667","type":"Selection"},"selection_policy":{"id":"1666","type":"UnionRenderers"}},"id":"1625","type":"ColumnDataSource"},{"attributes":{},"id":"1597","type":"CategoricalScale"},{"attributes":{"text":""},"id":"1659","type":"Title"},{"attributes":{"data_source":{"id":"1625","type":"ColumnDataSource"},"glyph":{"id":"1627","type":"Rect"},"hover_glyph":null,"muted_glyph":null,"nonselection_glyph":{"id":"1628","type":"Rect"},"selection_glyph":null,"view":{"id":"1630","type":"CDSView"}},"id":"1629","type":"GlyphRenderer"},{"attributes":{"high":0,"low":1,"palette":["#67000d","#a50f15","#cb181d","#ef3b2c","#fb6a4a","#fc9272","#fcbba1","#fee0d2","#fff5f0"]},"id":"1624","type":"LinearColorMapper"}],"root_ids":["1594"]},"title":"Bokeh Application","version":"1.1.0"}};
+  var render_items = [{"docid":"b007b30c-fe4a-4108-a06b-7b358dc88443","roots":{"1594":"8a597481-c264-464b-9e18-ae3bc871afe8"}}];
   root.Bokeh.embed.embed_items_notebook(docs_json, render_items);
 
   }
@@ -14843,7 +13525,8 @@ var element = $('#9d2d356e-37ef-4a94-aa01-58f41ff2f131');
 
 </div>
 <div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
-</div><div class="inner_cell">
+</div>
+<div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
 <p>Save the figure to disk.</p>
 
@@ -14852,37 +13535,25 @@ var element = $('#9d2d356e-37ef-4a94-aa01-58f41ff2f131');
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[12]:</div>
+<div class="prompt input_prompt">In&nbsp;[11]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="n">bokeh</span><span class="o">.</span><span class="n">io</span><span class="o">.</span><span class="n">output_file</span><span class="p">(</span><span class="s2">&quot;output/heatmap.html&quot;</span><span class="p">)</span>
 <span class="n">path</span> <span class="o">=</span> <span class="n">bokeh</span><span class="o">.</span><span class="n">io</span><span class="o">.</span><span class="n">save</span><span class="p">(</span><span class="n">f</span><span class="p">)</span>
 </pre></div>
 
-    </div>
+</div>
 </div>
 </div>
 
 </div>
 <div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
-</div><div class="inner_cell">
+</div>
+<div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
 <h2 id="Discussion">Discussion<a class="anchor-link" href="#Discussion">&#182;</a></h2>
 </div>
 </div>
-</div>
-<div class="cell border-box-sizing code_cell rendered">
-<div class="input">
-<div class="prompt input_prompt">In&nbsp;[&nbsp;]:</div>
-<div class="inner_cell">
-    <div class="input_area">
-<div class=" highlight hl-ipython3"><pre><span></span> 
-</pre></div>
-
-    </div>
-</div>
-</div>
-
 </div>
     </div>
   </div>

@@ -1022,7 +1022,7 @@ df.columns = pd.MultiIndex.from_tuples(df.columns)
 df_normalized.columns = pd.MultiIndex.from_tuples(df_normalized.columns)
 
 # export to xlsx
-writer = pd.ExcelWriter("ecoinvent_electricity_comparison.xlsx", engine='xlsxwriter')
+writer = pd.ExcelWriter("output/ecoinvent_electricity_comparison.xlsx", engine='xlsxwriter')
 df.to_excel(writer, sheet_name='abs')
 df_normalized.to_excel(writer, sheet_name='norm')
 writer.save()
@@ -1115,8 +1115,13 @@ Save the figure to disk.
 
 
 ```python
-bokeh.io.output_file("heatmap.html")
+bokeh.io.output_file("output/heatmap.html")
 path = bokeh.io.save(f)
 ```
 
 ## Discussion
+
+
+```python
+
+```

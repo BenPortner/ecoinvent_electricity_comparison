@@ -1,3 +1,4 @@
+For a properly rendered version of the notebook, click here:https://nbviewer.jupyter.org/github/BenPortner/ecoinvent_electricity_comparison/blob/master/notebook.html
 
 # What is the most sustainable way to generate electricity? A comparison of ecoinvent datasets.
 
